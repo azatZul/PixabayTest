@@ -1,514 +1,1154 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		2DEE208514168D6BE2BE73C3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE27126C5A9CB7F49EAC8F /* Info.plist */; };
-		2DEE20CC57D57D4D265C242C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE20F19562C0A3EF64BB15 /* main.m */; };
-		2DEE20D3B22A03067B61B852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE22642EE874AC897CE3B8 /* LaunchScreen.storyboard */; };
-		2DEE20EB33A97440DE29D874 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE2E8DA5618D9C12395BA2 /* Info.plist */; };
-		2DEE232EF943F1288D0B477B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE2F68AC47A5518D9B3F9B /* Info.plist */; };
-		2DEE237EFE3EABDB2C845EFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2212E76F422445808EBA /* AppDelegate.m */; };
-		2DEE246CBDE737A5DC69B9A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE2827A624C2142E4CB11E /* Assets.xcassets */; };
-		2DEE24B0567E48BCE4D0A0E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE2FD7E6641489AAA24D91 /* Main.storyboard */; };
-		2DEE29DF5644DB68C69C6B70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE27DF09091FF2A186F884 /* ViewController.m */; };
-		2DEE2B7B1904F4EB2E5BF115 /* PixabayTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2024C814828E38A1151D /* PixabayTestUITests.m */; };
-		2DEE2C427D10ED5F733320AB /* PixabayTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2AE659D3A899A2B0A555 /* PixabayTestTests.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2DEE25AC7A25C1B443FEFD6C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2DEE29C91D1920B7F6B98773 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2DEE2909B3AAC627FCB3F1DE;
-			remoteInfo = PixabayTest;
-		};
-		2DEE2BD73C669199DA74EE4A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2DEE29C91D1920B7F6B98773 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2DEE2909B3AAC627FCB3F1DE;
-			remoteInfo = PixabayTest;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		2DEE2024C814828E38A1151D /* PixabayTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PixabayTestUITests.m; sourceTree = "<group>"; };
-		2DEE209BD13C5336F26DC7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2DEE20F19562C0A3EF64BB15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2DEE2212E76F422445808EBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2DEE2249D2ACFBABDC800D95 /* PixabayTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixabayTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DEE240CDBE3CD1962B8F31F /* PixabayTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixabayTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DEE27126C5A9CB7F49EAC8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		2DEE278B73706A8D1A2AADBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2DEE27DF09091FF2A186F884 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2DEE2827A624C2142E4CB11E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2DEE298EAC35BFE7ADFB3562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2DEE2AE659D3A899A2B0A555 /* PixabayTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PixabayTestTests.m; sourceTree = "<group>"; };
-		2DEE2B7F43B6FDB7E7869ECE /* PixabayTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixabayTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DEE2BEB1E5D7322F36ADB83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2DEE2E8DA5618D9C12395BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		2DEE2F68AC47A5518D9B3F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		2DEE282E2E50BC332F5711DD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2DEE2A5838ACCCFF1CF234C6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2DEE2D308BD15CB7BD634F62 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		2DEE2495974ED2FF29A5F6A3 = {
-			isa = PBXGroup;
-			children = (
-				2DEE2BF5C9B953008CA55675 /* Products */,
-				2DEE2607E96519AE18B6585A /* PixabayTest */,
-				2DEE24FF7793944552BC1A32 /* PixabayTestTests */,
-				2DEE27B0F7381690C96ADCB1 /* PixabayTestUITests */,
-			);
-			sourceTree = "<group>";
-		};
-		2DEE24FF7793944552BC1A32 /* PixabayTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				2DEE2E8DA5618D9C12395BA2 /* Info.plist */,
-				2DEE2AE659D3A899A2B0A555 /* PixabayTestTests.m */,
-			);
-			path = PixabayTestTests;
-			sourceTree = "<group>";
-		};
-		2DEE2607E96519AE18B6585A /* PixabayTest */ = {
-			isa = PBXGroup;
-			children = (
-				2DEE2F68AC47A5518D9B3F9B /* Info.plist */,
-				2DEE2827A624C2142E4CB11E /* Assets.xcassets */,
-				2DEE22642EE874AC897CE3B8 /* LaunchScreen.storyboard */,
-				2DEE287A2509B2932FFDB4DD /* Supporting Files */,
-				2DEE2BEB1E5D7322F36ADB83 /* AppDelegate.h */,
-				2DEE2212E76F422445808EBA /* AppDelegate.m */,
-				2DEE2FD7E6641489AAA24D91 /* Main.storyboard */,
-				2DEE278B73706A8D1A2AADBF /* ViewController.h */,
-				2DEE27DF09091FF2A186F884 /* ViewController.m */,
-			);
-			path = PixabayTest;
-			sourceTree = "<group>";
-		};
-		2DEE27B0F7381690C96ADCB1 /* PixabayTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2DEE27126C5A9CB7F49EAC8F /* Info.plist */,
-				2DEE2024C814828E38A1151D /* PixabayTestUITests.m */,
-			);
-			path = PixabayTestUITests;
-			sourceTree = "<group>";
-		};
-		2DEE287A2509B2932FFDB4DD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2DEE20F19562C0A3EF64BB15 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2DEE2BF5C9B953008CA55675 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2DEE240CDBE3CD1962B8F31F /* PixabayTest.app */,
-				2DEE2B7F43B6FDB7E7869ECE /* PixabayTestTests.xctest */,
-				2DEE2249D2ACFBABDC800D95 /* PixabayTestUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		2DEE268A1CC14C2857AD5B85 /* PixabayTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2DEE212F682A0D6AEF18518B /* Build configuration list for PBXNativeTarget "PixabayTestUITests" */;
-			buildPhases = (
-				2DEE203A2211B072A8C34608 /* Sources */,
-				2DEE282E2E50BC332F5711DD /* Frameworks */,
-				2DEE2174BA26AF01DAC69BBC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2DEE22B89168F996C7FDDE11 /* PBXTargetDependency */,
-			);
-			name = PixabayTestUITests;
-			productName = PixabayTestUITests;
-			productReference = 2DEE2249D2ACFBABDC800D95 /* PixabayTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		2DEE2909B3AAC627FCB3F1DE /* PixabayTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2DEE2684717522E088969B90 /* Build configuration list for PBXNativeTarget "PixabayTest" */;
-			buildPhases = (
-				2DEE27ED73855B38878D57A6 /* Sources */,
-				2DEE2D308BD15CB7BD634F62 /* Frameworks */,
-				2DEE29E45DB27AB2118025B1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PixabayTest;
-			productName = PixabayTest;
-			productReference = 2DEE240CDBE3CD1962B8F31F /* PixabayTest.app */;
-			productType = "com.apple.product-type.application";
-		};
-		2DEE2FE83CBBC281FB4047F3 /* PixabayTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2DEE2CBB514C652E819C7B97 /* Build configuration list for PBXNativeTarget "PixabayTestTests" */;
-			buildPhases = (
-				2DEE201FA2C1F8601611F647 /* Sources */,
-				2DEE2A5838ACCCFF1CF234C6 /* Frameworks */,
-				2DEE2C17B11801348F55C6CE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2DEE264E1E4D0CE254C3E52F /* PBXTargetDependency */,
-			);
-			name = PixabayTestTests;
-			productName = PixabayTestTests;
-			productReference = 2DEE2B7F43B6FDB7E7869ECE /* PixabayTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		2DEE29C91D1920B7F6B98773 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				ORGANIZATIONNAME = "Azat Zul";
-			};
-			buildConfigurationList = 2DEE2D6BAC6CDFC345E6A02B /* Build configuration list for PBXProject "PixabayTest" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 2DEE2495974ED2FF29A5F6A3;
-			productRefGroup = 2DEE2BF5C9B953008CA55675 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				2DEE2909B3AAC627FCB3F1DE /* PixabayTest */,
-				2DEE2FE83CBBC281FB4047F3 /* PixabayTestTests */,
-				2DEE268A1CC14C2857AD5B85 /* PixabayTestUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		2DEE2174BA26AF01DAC69BBC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DEE208514168D6BE2BE73C3 /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2DEE29E45DB27AB2118025B1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DEE232EF943F1288D0B477B /* Info.plist in Resources */,
-				2DEE246CBDE737A5DC69B9A8 /* Assets.xcassets in Resources */,
-				2DEE20D3B22A03067B61B852 /* LaunchScreen.storyboard in Resources */,
-				2DEE24B0567E48BCE4D0A0E6 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2DEE2C17B11801348F55C6CE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DEE20EB33A97440DE29D874 /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		2DEE201FA2C1F8601611F647 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DEE2C427D10ED5F733320AB /* PixabayTestTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2DEE203A2211B072A8C34608 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DEE2B7B1904F4EB2E5BF115 /* PixabayTestUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2DEE27ED73855B38878D57A6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DEE20CC57D57D4D265C242C /* main.m in Sources */,
-				2DEE237EFE3EABDB2C845EFE /* AppDelegate.m in Sources */,
-				2DEE29DF5644DB68C69C6B70 /* ViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2DEE22B89168F996C7FDDE11 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2DEE2909B3AAC627FCB3F1DE /* PixabayTest */;
-			targetProxy = 2DEE2BD73C669199DA74EE4A /* PBXContainerItemProxy */;
-		};
-		2DEE264E1E4D0CE254C3E52F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2DEE2909B3AAC627FCB3F1DE /* PixabayTest */;
-			targetProxy = 2DEE25AC7A25C1B443FEFD6C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2DEE22642EE874AC897CE3B8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DEE298EAC35BFE7ADFB3562 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		2DEE2FD7E6641489AAA24D91 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DEE209BD13C5336F26DC7D2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		2DEE20583B3BFEE94F4953CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2DEE20CDBE63B5A2F25A9280 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PixabayTest.app/PixabayTest";
-				INFOPLIST_FILE = PixabayTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "azat-zul.PixabayTestUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Release;
-		};
-		2DEE230488E57C43FB124311 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = PixabayTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "azat-zul.PixabayTest";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		2DEE2511A89A7FDB0E11E694 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PixabayTest.app/PixabayTest";
-				INFOPLIST_FILE = PixabayTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "azat-zul.PixabayTestUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		2DEE27B72EA0F5544455ABD0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PixabayTest.app/PixabayTest";
-				INFOPLIST_FILE = PixabayTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "azat-zul.PixabayTestTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Release;
-		};
-		2DEE29F0D20AF70D6B80D2AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2DEE2A4667001F08A114E93D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = PixabayTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "azat-zul.PixabayTest";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		2DEE2CBE5CCDFB1441D4F78F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PixabayTest.app/PixabayTest";
-				INFOPLIST_FILE = PixabayTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "azat-zul.PixabayTestTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		2DEE212F682A0D6AEF18518B /* Build configuration list for PBXNativeTarget "PixabayTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2DEE2511A89A7FDB0E11E694 /* Debug */,
-				2DEE20CDBE63B5A2F25A9280 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		2DEE2684717522E088969B90 /* Build configuration list for PBXNativeTarget "PixabayTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2DEE230488E57C43FB124311 /* Debug */,
-				2DEE2A4667001F08A114E93D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		2DEE2CBB514C652E819C7B97 /* Build configuration list for PBXNativeTarget "PixabayTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2DEE2CBE5CCDFB1441D4F78F /* Debug */,
-				2DEE27B72EA0F5544455ABD0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		2DEE2D6BAC6CDFC345E6A02B /* Build configuration list for PBXProject "PixabayTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2DEE29F0D20AF70D6B80D2AA /* Debug */,
-				2DEE20583B3BFEE94F4953CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 2DEE29C91D1920B7F6B98773 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>2DEE201FA2C1F8601611F647</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2DEE2C427D10ED5F733320AB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2DEE2024C814828E38A1151D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PixabayTestUITests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE203A2211B072A8C34608</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2DEE2B7B1904F4EB2E5BF115</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2DEE20583B3BFEE94F4953CA</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>2DEE208514168D6BE2BE73C3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2DEE27126C5A9CB7F49EAC8F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2DEE209BD13C5336F26DC7D2</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE20CC57D57D4D265C242C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2DEE20F19562C0A3EF64BB15</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2DEE20CDBE63B5A2F25A9280</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/PixabayTest.app/PixabayTest</string>
+				<key>INFOPLIST_FILE</key>
+				<string>PixabayTestUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>azat-zul.PixabayTestUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>2DEE20D3B22A03067B61B852</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2DEE22642EE874AC897CE3B8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2DEE20EB33A97440DE29D874</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2DEE2E8DA5618D9C12395BA2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2DEE20F19562C0A3EF64BB15</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE212F682A0D6AEF18518B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>2DEE2511A89A7FDB0E11E694</string>
+				<string>2DEE20CDBE63B5A2F25A9280</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2DEE2174BA26AF01DAC69BBC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2DEE208514168D6BE2BE73C3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2DEE2212E76F422445808EBA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE2249D2ACFBABDC800D95</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>PixabayTestUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>2DEE22642EE874AC897CE3B8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2DEE298EAC35BFE7ADFB3562</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE22B89168F996C7FDDE11</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>2DEE2909B3AAC627FCB3F1DE</string>
+			<key>targetProxy</key>
+			<string>2DEE2BD73C669199DA74EE4A</string>
+		</dict>
+		<key>2DEE230488E57C43FB124311</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>DC17CFDAA63FC7BA74573858</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>PixabayTest/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>azat-zul.PixabayTest</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>2DEE232EF943F1288D0B477B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2DEE2F68AC47A5518D9B3F9B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2DEE237EFE3EABDB2C845EFE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2DEE2212E76F422445808EBA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2DEE240CDBE3CD1962B8F31F</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>PixabayTest.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>2DEE246CBDE737A5DC69B9A8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2DEE2827A624C2142E4CB11E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2DEE2495974ED2FF29A5F6A3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2DEE2BF5C9B953008CA55675</string>
+				<string>2DEE2607E96519AE18B6585A</string>
+				<string>2DEE24FF7793944552BC1A32</string>
+				<string>2DEE27B0F7381690C96ADCB1</string>
+				<string>50CF193D5E4C6F57E5F537EA</string>
+				<string>7802F826982E2D47C6F41EBD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE24B0567E48BCE4D0A0E6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2DEE2FD7E6641489AAA24D91</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2DEE24FF7793944552BC1A32</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2DEE2E8DA5618D9C12395BA2</string>
+				<string>2DEE2AE659D3A899A2B0A555</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>PixabayTestTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE2511A89A7FDB0E11E694</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/PixabayTest.app/PixabayTest</string>
+				<key>INFOPLIST_FILE</key>
+				<string>PixabayTestUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>azat-zul.PixabayTestUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>2DEE25AC7A25C1B443FEFD6C</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>2DEE29C91D1920B7F6B98773</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>2DEE2909B3AAC627FCB3F1DE</string>
+			<key>remoteInfo</key>
+			<string>PixabayTest</string>
+		</dict>
+		<key>2DEE2607E96519AE18B6585A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2DEE2F68AC47A5518D9B3F9B</string>
+				<string>2DEE2827A624C2142E4CB11E</string>
+				<string>2DEE22642EE874AC897CE3B8</string>
+				<string>2DEE287A2509B2932FFDB4DD</string>
+				<string>2DEE2BEB1E5D7322F36ADB83</string>
+				<string>2DEE2212E76F422445808EBA</string>
+				<string>2DEE2FD7E6641489AAA24D91</string>
+				<string>2DEE278B73706A8D1A2AADBF</string>
+				<string>2DEE27DF09091FF2A186F884</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>PixabayTest</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE264E1E4D0CE254C3E52F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>2DEE2909B3AAC627FCB3F1DE</string>
+			<key>targetProxy</key>
+			<string>2DEE25AC7A25C1B443FEFD6C</string>
+		</dict>
+		<key>2DEE2684717522E088969B90</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>2DEE230488E57C43FB124311</string>
+				<string>2DEE2A4667001F08A114E93D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2DEE268A1CC14C2857AD5B85</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>2DEE212F682A0D6AEF18518B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>2DEE203A2211B072A8C34608</string>
+				<string>2DEE282E2E50BC332F5711DD</string>
+				<string>2DEE2174BA26AF01DAC69BBC</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>2DEE22B89168F996C7FDDE11</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>PixabayTestUITests</string>
+			<key>productName</key>
+			<string>PixabayTestUITests</string>
+			<key>productReference</key>
+			<string>2DEE2249D2ACFBABDC800D95</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>2DEE27126C5A9CB7F49EAC8F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.info</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE278B73706A8D1A2AADBF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE27B0F7381690C96ADCB1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2DEE27126C5A9CB7F49EAC8F</string>
+				<string>2DEE2024C814828E38A1151D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>PixabayTestUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE27B72EA0F5544455ABD0</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/PixabayTest.app/PixabayTest</string>
+				<key>INFOPLIST_FILE</key>
+				<string>PixabayTestTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>azat-zul.PixabayTestTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>2DEE27DF09091FF2A186F884</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE27ED73855B38878D57A6</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2DEE20CC57D57D4D265C242C</string>
+				<string>2DEE237EFE3EABDB2C845EFE</string>
+				<string>2DEE29DF5644DB68C69C6B70</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2DEE2827A624C2142E4CB11E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE282E2E50BC332F5711DD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2DEE287A2509B2932FFDB4DD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2DEE20F19562C0A3EF64BB15</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE2909B3AAC627FCB3F1DE</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>2DEE2684717522E088969B90</string>
+			<key>buildPhases</key>
+			<array>
+				<string>5E6B5096E6BD5CAA83CBE86C</string>
+				<string>2DEE27ED73855B38878D57A6</string>
+				<string>2DEE2D308BD15CB7BD634F62</string>
+				<string>2DEE29E45DB27AB2118025B1</string>
+				<string>8A6C5DE9E525ABF13DBA4379</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>PixabayTest</string>
+			<key>productName</key>
+			<string>PixabayTest</string>
+			<key>productReference</key>
+			<string>2DEE240CDBE3CD1962B8F31F</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>2DEE298EAC35BFE7ADFB3562</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE29C91D1920B7F6B98773</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>ORGANIZATIONNAME</key>
+				<string>Azat Zul</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>2DEE2D6BAC6CDFC345E6A02B</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>2DEE2495974ED2FF29A5F6A3</string>
+			<key>productRefGroup</key>
+			<string>2DEE2BF5C9B953008CA55675</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>2DEE2909B3AAC627FCB3F1DE</string>
+				<string>2DEE2FE83CBBC281FB4047F3</string>
+				<string>2DEE268A1CC14C2857AD5B85</string>
+			</array>
+		</dict>
+		<key>2DEE29DF5644DB68C69C6B70</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2DEE27DF09091FF2A186F884</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2DEE29E45DB27AB2118025B1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2DEE232EF943F1288D0B477B</string>
+				<string>2DEE246CBDE737A5DC69B9A8</string>
+				<string>2DEE20D3B22A03067B61B852</string>
+				<string>2DEE24B0567E48BCE4D0A0E6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2DEE29F0D20AF70D6B80D2AA</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>2DEE2A4667001F08A114E93D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>47948BF9B4EA762A31A8F609</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>PixabayTest/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>azat-zul.PixabayTest</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>2DEE2A5838ACCCFF1CF234C6</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2DEE2AE659D3A899A2B0A555</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PixabayTestTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE2B7B1904F4EB2E5BF115</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2DEE2024C814828E38A1151D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2DEE2B7F43B6FDB7E7869ECE</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>PixabayTestTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>2DEE2BD73C669199DA74EE4A</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>2DEE29C91D1920B7F6B98773</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>2DEE2909B3AAC627FCB3F1DE</string>
+			<key>remoteInfo</key>
+			<string>PixabayTest</string>
+		</dict>
+		<key>2DEE2BEB1E5D7322F36ADB83</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE2BF5C9B953008CA55675</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2DEE240CDBE3CD1962B8F31F</string>
+				<string>2DEE2B7F43B6FDB7E7869ECE</string>
+				<string>2DEE2249D2ACFBABDC800D95</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE2C17B11801348F55C6CE</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2DEE20EB33A97440DE29D874</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2DEE2C427D10ED5F733320AB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2DEE2AE659D3A899A2B0A555</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2DEE2CBB514C652E819C7B97</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>2DEE2CBE5CCDFB1441D4F78F</string>
+				<string>2DEE27B72EA0F5544455ABD0</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2DEE2CBE5CCDFB1441D4F78F</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/PixabayTest.app/PixabayTest</string>
+				<key>INFOPLIST_FILE</key>
+				<string>PixabayTestTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>azat-zul.PixabayTestTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>2DEE2D308BD15CB7BD634F62</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9F8C56C95FCB5EA5F1F9C812</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2DEE2D6BAC6CDFC345E6A02B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>2DEE29F0D20AF70D6B80D2AA</string>
+				<string>2DEE20583B3BFEE94F4953CA</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2DEE2E8DA5618D9C12395BA2</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.info</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE2F68AC47A5518D9B3F9B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.info</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE2FD7E6641489AAA24D91</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2DEE209BD13C5336F26DC7D2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2DEE2FE83CBBC281FB4047F3</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>2DEE2CBB514C652E819C7B97</string>
+			<key>buildPhases</key>
+			<array>
+				<string>2DEE201FA2C1F8601611F647</string>
+				<string>2DEE2A5838ACCCFF1CF234C6</string>
+				<string>2DEE2C17B11801348F55C6CE</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>2DEE264E1E4D0CE254C3E52F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>PixabayTestTests</string>
+			<key>productName</key>
+			<string>PixabayTestTests</string>
+			<key>productReference</key>
+			<string>2DEE2B7F43B6FDB7E7869ECE</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>47948BF9B4EA762A31A8F609</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>50CF193D5E4C6F57E5F537EA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DC17CFDAA63FC7BA74573858</string>
+				<string>47948BF9B4EA762A31A8F609</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5E6B5096E6BD5CAA83CBE86C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>66A7DBA6EFB94208CACF7C73</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>7802F826982E2D47C6F41EBD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>66A7DBA6EFB94208CACF7C73</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8A6C5DE9E525ABF13DBA4379</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>9F8C56C95FCB5EA5F1F9C812</key>
+		<dict>
+			<key>fileRef</key>
+			<string>66A7DBA6EFB94208CACF7C73</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DC17CFDAA63FC7BA74573858</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>2DEE29C91D1920B7F6B98773</string>
+</dict>
+</plist>
