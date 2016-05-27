@@ -1,0 +1,1 @@
+//// PBTRoutesBuilder// PixabayTest////  Created by azat on 26/05/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>@interface PBTRoutesBuilder : NSObject@property (nonatomic, strong, readonly) NSURL *baseURL;- (instancetype)initWithBaseURL:(NSURL *)baseURL;- (NSURL *)photosListRouteWithParams:(NSDictionary *)params;@end

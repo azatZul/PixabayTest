@@ -2,652 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a4ab870-5c81-4951-9584-cccd36849ce9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest.xcworkspace/contents.xcworkspacedata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Podfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Podfile.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FrameAccessor/FrameAccessor/FrameAccessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FrameAccessor/FrameAccessor/ScrollViewFrameAccessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FrameAccessor/FrameAccessor/ScrollViewFrameAccessor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FrameAccessor/FrameAccessor/ViewFrameAccessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FrameAccessor/FrameAccessor/ViewFrameAccessor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FrameAccessor/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/FrameAccessor/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFAutoPurgingImageCache.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFHTTPSessionManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFImageDownloader.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFNetworkActivityIndicatorManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFNetworkReachabilityManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFSecurityPolicy.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFURLRequestSerialization.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFURLResponseSerialization.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/AFURLSessionManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/UIActivityIndicatorView+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/UIButton+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/UIImage+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/UIImageView+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/UIKit+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/UIProgressView+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/UIRefreshControl+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/AFNetworking/UIWebView+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FrameAccessor/FrameAccessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FrameAccessor/ScrollViewFrameAccessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/FrameAccessor/ViewFrameAccessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/Collections+CustomInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/NSArray+TyphoonManualEnumeration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/NSDictionary+CustomInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/NSInvocation+TCFInstanceBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/NSInvocation+TCFUnwrapValues.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/NSInvocation+TCFWrapValues.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/NSMethodSignature+TCFUnwrapValues.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/NSNullTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/NSObject+DeallocNotification.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/NSObject+FactoryHooks.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/NSObject+PropertyInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/NSObject+TyphoonIntrospectionUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/NSValue+TCFUnwrapValues.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/OCLogTemplate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/Typhoon+Infrastructure.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/Typhoon.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonAbstractDetachableComponentFactoryPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonAbstractInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonAssembly+TyphoonAssemblyFriend.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonAssembly.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonAssemblyActivator.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonAssemblyAdviser.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonAssemblyBuilder+PlistProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonAssemblyBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonAssemblyDefinitionBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonAssemblyPropertyInjectionPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonAssemblySelectorAdviser.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonAutoInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonBlockComponentFactory.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonBlockDefinition+InstanceBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonBlockDefinition+Internal.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonBlockDefinition.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonBlockDefinitionController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonBundleResource.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonBundledImageTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonCallStack.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonCircularDependencyTerminator.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonCollaboratingAssembliesCollector.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonCollaboratingAssemblyPropertyEnumerator.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonCollaboratingAssemblyProxy.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonColorConversionUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonComponentFactory+InstanceBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonComponentFactory+TyphoonDefinitionRegisterer.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonComponentFactory.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonComponentsPool.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonConfigPostProcessor+Internal.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonConfigPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonConfiguration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonDefinition+Config.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonDefinition+Infrastructure.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonDefinition+InstanceBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonDefinition+Internal.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonDefinition+Option.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonDefinition.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonDefinitionNamespace.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonDefinitionPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonDefinitionRegisterer.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonFactoryAutoInjectionPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonFactoryDefinition.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonFactoryPropertyInjectionPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonGlobalConfigCollector.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInject.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInjectedObject.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInjectionByCollection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInjectionByComponentFactory.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInjectionByConfig.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInjectionByCurrentRuntimeArguments.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInjectionByDictionary.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInjectionByFactoryReference.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInjectionByObjectFromString.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInjectionByObjectInstance.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInjectionByReference.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInjectionByRuntimeArgument.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInjectionByType.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInjectionContext.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInjectionDefinition.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInjections.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInjectionsEnumeration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonInstancePostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonIntrospectionUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonJsonStyleConfiguration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonLinkerCategoryBugFix.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonLoadedView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonMemoryManagementUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonMethod+InstanceBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonMethod.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonMethodSwizzler.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonNSNumberTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonNSURLTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonObjectWithCustomInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonOptionMatcher+Internal.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonOptionMatcher.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonOrdered.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonParameterInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonParentReferenceHydratingPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonPassThroughTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonPatcher.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonPathResource.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonPlistStyleConfiguration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonPreattachedComponentsRegisterer.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonPrimitiveTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonPropertyInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonPropertyStyleConfiguration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonReferenceDefinition.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonResource.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonRuntimeArguments.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonSelector.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonStackElement.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonStartup.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonStoryboard.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonStoryboardProvider.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonStoryboardResolver.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonSwizzlerDefaultImpl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonTestUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonTypeConversionUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonTypeConverterRegistry.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonTypeDescriptor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonUIColorTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonViewControllerNibResolver.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonViewHelpers.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphoonWeakComponentsPool.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Typhoon/TyphooniOS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/libextobjc/EXTADT.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/libextobjc/EXTConcreteProtocol.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/libextobjc/EXTKeyPathCoding.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/libextobjc/EXTNil.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/libextobjc/EXTRuntimeExtensions.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/libextobjc/EXTSafeCategory.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/libextobjc/EXTScope.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/libextobjc/EXTSelectorChecking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/libextobjc/EXTSynthesize.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/libextobjc/NSInvocation+EXT.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/libextobjc/NSMethodSignature+EXT.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/libextobjc/extobjc.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/libextobjc/metamacros.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFAutoPurgingImageCache.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFImageDownloader.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFNetworkActivityIndicatorManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/UIActivityIndicatorView+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/UIButton+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/UIImage+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/UIImageView+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/UIKit+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/UIProgressView+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/UIRefreshControl+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/UIWebView+AFNetworking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FrameAccessor/FrameAccessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FrameAccessor/ScrollViewFrameAccessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/FrameAccessor/ViewFrameAccessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/Collections+CustomInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/NSArray+TyphoonManualEnumeration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/NSDictionary+CustomInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/NSInvocation+TCFInstanceBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/NSInvocation+TCFUnwrapValues.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/NSInvocation+TCFWrapValues.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/NSMethodSignature+TCFUnwrapValues.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/NSNullTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/NSObject+DeallocNotification.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/NSObject+FactoryHooks.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/NSObject+PropertyInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/NSObject+TyphoonIntrospectionUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/NSValue+TCFUnwrapValues.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/OCLogTemplate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/Typhoon+Infrastructure.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/Typhoon.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonAbstractDetachableComponentFactoryPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonAbstractInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonAssembly+TyphoonAssemblyFriend.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonAssembly.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonAssemblyActivator.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonAssemblyAdviser.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonAssemblyBuilder+PlistProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonAssemblyBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonAssemblyDefinitionBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonAssemblyPropertyInjectionPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonAssemblySelectorAdviser.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonAutoInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonBlockComponentFactory.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonBlockDefinition+InstanceBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonBlockDefinition+Internal.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonBlockDefinition.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonBlockDefinitionController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonBundleResource.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonBundledImageTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonCallStack.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonCircularDependencyTerminator.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonCollaboratingAssembliesCollector.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonCollaboratingAssemblyPropertyEnumerator.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonCollaboratingAssemblyProxy.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonColorConversionUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonComponentFactory+InstanceBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonComponentFactory+TyphoonDefinitionRegisterer.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonComponentFactory.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonComponentsPool.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonConfigPostProcessor+Internal.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonConfigPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonConfiguration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonDefinition+Config.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonDefinition+Infrastructure.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonDefinition+InstanceBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonDefinition+Internal.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonDefinition+Option.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonDefinition.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonDefinitionNamespace.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonDefinitionPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonDefinitionRegisterer.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonFactoryAutoInjectionPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonFactoryDefinition.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonFactoryPropertyInjectionPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonGlobalConfigCollector.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInject.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInjectedObject.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInjectionByCollection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInjectionByComponentFactory.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInjectionByConfig.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInjectionByCurrentRuntimeArguments.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInjectionByDictionary.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInjectionByFactoryReference.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInjectionByObjectFromString.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInjectionByObjectInstance.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInjectionByReference.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInjectionByRuntimeArgument.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInjectionByType.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInjectionContext.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInjectionDefinition.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInjections.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInjectionsEnumeration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonInstancePostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonIntrospectionUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonJsonStyleConfiguration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonLinkerCategoryBugFix.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonLoadedView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonMemoryManagementUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonMethod+InstanceBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonMethod.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonMethodSwizzler.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonNSNumberTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonNSURLTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonObjectWithCustomInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonOptionMatcher+Internal.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonOptionMatcher.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonOrdered.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonParameterInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonParentReferenceHydratingPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonPassThroughTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonPatcher.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonPathResource.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonPlistStyleConfiguration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonPreattachedComponentsRegisterer.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonPrimitiveTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonPropertyInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonPropertyStyleConfiguration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonReferenceDefinition.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonResource.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonRuntimeArguments.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonSelector.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonStackElement.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonStartup.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonStoryboard.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonStoryboardProvider.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonStoryboardResolver.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonSwizzlerDefaultImpl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonTestUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonTypeConversionUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonTypeConverterRegistry.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonTypeDescriptor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonUIColorTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonViewControllerNibResolver.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonViewHelpers.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphoonWeakComponentsPool.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Typhoon/TyphooniOS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/libextobjc/EXTADT.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/libextobjc/EXTConcreteProtocol.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/libextobjc/EXTKeyPathCoding.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/libextobjc/EXTNil.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/libextobjc/EXTRuntimeExtensions.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/libextobjc/EXTSafeCategory.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/libextobjc/EXTScope.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/libextobjc/EXTSelectorChecking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/libextobjc/EXTSynthesize.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/libextobjc/NSInvocation+EXT.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/libextobjc/NSMethodSignature+EXT.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/libextobjc/extobjc.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/libextobjc/metamacros.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/AFNetworking.xcscheme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/FrameAccessor.xcscheme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/Pods.xcscheme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/Typhoon.xcscheme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/libextobjc.xcscheme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-Private.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-dummy.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-prefix.pch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/FrameAccessor/FrameAccessor-Private.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/FrameAccessor/FrameAccessor-dummy.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/FrameAccessor/FrameAccessor-prefix.pch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/FrameAccessor/FrameAccessor.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-dummy.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-resources.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.release.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Typhoon/Typhoon-Private.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Typhoon/Typhoon-dummy.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Typhoon/Typhoon-prefix.pch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Typhoon/Typhoon.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/libextobjc/libextobjc-Private.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/libextobjc/libextobjc-dummy.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/libextobjc/libextobjc-prefix.pch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/libextobjc/libextobjc.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/Internal/TyphoonConfigPostProcessor+Internal.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfigPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfigPostProcessor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonConfiguration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonJsonStyleConfiguration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonJsonStyleConfiguration.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonPlistStyleConfiguration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonPlistStyleConfiguration.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonPropertyStyleConfiguration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonPropertyStyleConfiguration.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonDefinition+Config.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonDefinition+Config.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/DefinitionOptionConfiguration/Matcher/TyphoonOptionMatcher+Internal.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/DefinitionOptionConfiguration/Matcher/TyphoonOptionMatcher.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/DefinitionOptionConfiguration/Matcher/TyphoonOptionMatcher.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/DefinitionOptionConfiguration/TyphoonDefinition+Option.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/DefinitionOptionConfiguration/TyphoonDefinition+Option.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/GlobalConfigResolver/TyphoonGlobalConfigCollector.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/GlobalConfigResolver/TyphoonGlobalConfigCollector.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/Resource/TyphoonBundleResource.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/Resource/TyphoonBundleResource.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/Resource/TyphoonPathResource.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/Resource/TyphoonPathResource.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/Resource/TyphoonResource.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/Startup/TyphoonStartup.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/Startup/TyphoonStartup.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/TyphoonAbstractDetachableComponentFactoryPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/TyphoonAbstractDetachableComponentFactoryPostProcessor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/TyphoonDefinitionPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/TyphoonInstancePostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Configuration/TyphoonOrdered.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/AutoInjection/TyphoonAutoInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/AutoInjection/TyphoonFactoryAutoInjectionPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/AutoInjection/TyphoonFactoryAutoInjectionPostProcessor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/AutoInjection/TyphoonInjectedObject.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/AutoInjection/TyphoonInjectedObject.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Infrastructure/TyphoonDefinition+Infrastructure.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Infrastructure/TyphoonInjectionsEnumeration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonAbstractInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonAbstractInjection.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInject.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInject.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByCollection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByCollection.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByComponentFactory.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByComponentFactory.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByConfig.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByConfig.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByCurrentRuntimeArguments.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByCurrentRuntimeArguments.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByDictionary.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByDictionary.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByFactoryReference.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByFactoryReference.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByObjectFromString.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByObjectFromString.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByObjectInstance.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByObjectInstance.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByReference.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByReference.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByRuntimeArgument.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByRuntimeArgument.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByType.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByType.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionContext.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionContext.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjections.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjections.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonParameterInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonPropertyInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/Collections+CustomInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/Collections+CustomInjection.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/NSDictionary+CustomInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/NSDictionary+CustomInjection.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonBlockDefinition+InstanceBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonBlockDefinition+InstanceBuilder.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonBlockDefinition+Internal.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonBlockDefinitionController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonBlockDefinitionController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonDefinition+InstanceBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonDefinition+InstanceBuilder.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonDefinition+Internal.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonFactoryDefinition.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonFactoryDefinition.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonInjectionDefinition.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonInjectionDefinition.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonObjectWithCustomInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonReferenceDefinition.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonReferenceDefinition.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Method/Internal/TyphoonMethod+InstanceBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Method/Internal/TyphoonMethod+InstanceBuilder.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Method/TyphoonMethod.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Method/TyphoonMethod.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Namespacing/TyphoonDefinitionNamespace.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/Namespacing/TyphoonDefinitionNamespace.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/TyphoonBlockDefinition.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/TyphoonBlockDefinition.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/TyphoonDefinition.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Definition/TyphoonDefinition.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Assembly/TyphoonAssembly+TyphoonAssemblyFriend.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Assembly/TyphoonAssembly.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Assembly/TyphoonAssembly.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Assembly/TyphoonAssemblyActivator.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Assembly/TyphoonAssemblyActivator.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Hooks/NSObject+FactoryHooks.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/NSInvocation+TCFInstanceBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/NSInvocation+TCFInstanceBuilder.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/NSInvocation+TCFUnwrapValues.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/NSInvocation+TCFUnwrapValues.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/NSInvocation+TCFWrapValues.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/NSInvocation+TCFWrapValues.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/NSMethodSignature+TCFUnwrapValues.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/NSMethodSignature+TCFUnwrapValues.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/NSValue+TCFUnwrapValues.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/NSValue+TCFUnwrapValues.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyAdviser.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyAdviser.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyBuilder+PlistProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyBuilder+PlistProcessor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyBuilder.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyDefinitionBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyDefinitionBuilder.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyPropertyInjectionPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyPropertyInjectionPostProcessor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblySelectorAdviser.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblySelectorAdviser.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonBlockComponentFactory.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonBlockComponentFactory.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCallStack.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCallStack.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCircularDependencyTerminator.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCircularDependencyTerminator.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCollaboratingAssembliesCollector.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCollaboratingAssembliesCollector.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCollaboratingAssemblyPropertyEnumerator.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCollaboratingAssemblyPropertyEnumerator.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCollaboratingAssemblyProxy.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCollaboratingAssemblyProxy.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonComponentFactory+InstanceBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonComponentFactory+InstanceBuilder.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonComponentFactory+TyphoonDefinitionRegisterer.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonFactoryPropertyInjectionPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonFactoryPropertyInjectionPostProcessor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonMemoryManagementUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonMemoryManagementUtils.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonParentReferenceHydratingPostProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonParentReferenceHydratingPostProcessor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonRuntimeArguments.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonRuntimeArguments.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonStackElement.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonStackElement.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Pool/TyphoonComponentsPool.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Pool/TyphoonWeakComponentsPool.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/Pool/TyphoonWeakComponentsPool.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/TyphoonComponentFactory.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/TyphoonComponentFactory.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/TyphoonDefinitionRegisterer.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/TyphoonDefinitionRegisterer.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/TyphoonPreattachedComponentsRegisterer.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Factory/TyphoonPreattachedComponentsRegisterer.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Test/Patcher/TyphoonPatcher.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Test/Patcher/TyphoonPatcher.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Test/TestUtils/TyphoonTestUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Test/TestUtils/TyphoonTestUtils.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/NSNullTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/NSNullTypeConverter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonNSNumberTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonNSNumberTypeConverter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonNSURLTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonNSURLTypeConverter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonPassThroughTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonPassThroughTypeConverter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonPrimitiveTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonPrimitiveTypeConverter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/Helpers/TyphoonColorConversionUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/Helpers/TyphoonColorConversionUtils.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeConversionUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeConversionUtils.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeConverterRegistry.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeConverterRegistry.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeDescriptor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeDescriptor.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Typhoon+Infrastructure.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Typhoon.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Utils/NSArray+TyphoonManualEnumeration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Utils/NSArray+TyphoonManualEnumeration.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Utils/NSObject+DeallocNotification.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Utils/NSObject+DeallocNotification.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Utils/NSObject+PropertyInjection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Utils/NSObject+PropertyInjection.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Utils/NSObject+TyphoonIntrospectionUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Utils/NSObject+TyphoonIntrospectionUtils.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Utils/Swizzle/TyphoonMethodSwizzler.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Utils/Swizzle/TyphoonSwizzlerDefaultImpl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Utils/Swizzle/TyphoonSwizzlerDefaultImpl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Utils/TyphoonIntrospectionUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Utils/TyphoonIntrospectionUtils.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Utils/TyphoonLinkerCategoryBugFix.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Utils/TyphoonSelector.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Utils/TyphoonSelector.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Utils/TyphoonUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/Vendor/OCLogTemplate/OCLogTemplate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/ios/Configuration/Resolver/TyphoonViewControllerNibResolver.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/ios/Configuration/Resolver/TyphoonViewControllerNibResolver.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonLoadedView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonLoadedView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonStoryboard.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonStoryboard.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonStoryboardProvider.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonStoryboardProvider.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonStoryboardResolver.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonStoryboardResolver.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonViewHelpers.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonViewHelpers.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/ios/TypeConversion/Converters/TyphoonBundledImageTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/ios/TypeConversion/Converters/TyphoonBundledImageTypeConverter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/ios/TypeConversion/Converters/TyphoonUIColorTypeConverter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/ios/TypeConversion/Converters/TyphoonUIColorTypeConverter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Typhoon/Source/ios/TyphooniOS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/EXTADT.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/EXTADT.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/EXTConcreteProtocol.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/EXTConcreteProtocol.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/EXTKeyPathCoding.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/EXTNil.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/EXTNil.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/EXTRuntimeExtensions.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/EXTRuntimeExtensions.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/EXTSafeCategory.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/EXTSafeCategory.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/EXTScope.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/EXTScope.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/EXTSelectorChecking.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/EXTSelectorChecking.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/EXTSynthesize.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/NSInvocation+EXT.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/NSInvocation+EXT.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/NSMethodSignature+EXT.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/NSMethodSignature+EXT.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/extobjc.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/libextobjc/extobjc/metamacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Models/PBTPhoto.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Models/PBTPhoto.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/Common/PBTRequest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/Common/PBTRoutesBuilder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/Common/PBTRoutesBuilder.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapper.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTestTests/Mapping/PBTPhotoMappingTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTestTests/Mapping/PBTQueryResponseMappingTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTestTests/PBTTestHelperFunctions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTestTests/PBTTestHelperFunctions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTestTests/TestFiles/correct_query_response.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PixabayTestTests/PixabayTestTests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/Pods.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/FrameAccessor/FrameAccessor-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-resources.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.release.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Typhoon/Typhoon-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/libextobjc/libextobjc-Private.xcconfig" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PixabayTest.xcworkspace/xcuserdata/azat.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/PixabayTest.xcworkspace/xcuserdata/azat.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PixabayTest.iml" afterPath="$PROJECT_DIR$/.idea/PixabayTest.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/xcode.xml" afterPath="$PROJECT_DIR$/.idea/xcode.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PixabayTest.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/PixabayTest.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PixabayTest.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/PixabayTest.xcscheme" afterPath="$PROJECT_DIR$/PixabayTest.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/PixabayTest.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PixabayTest.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/PixabayTest.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/AFNetworking.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/AFNetworking.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/FrameAccessor.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/FrameAccessor.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/Typhoon.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/Typhoon.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/libextobjc.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/libextobjc.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/FrameAccessor/FrameAccessor.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/FrameAccessor/FrameAccessor.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Typhoon/Typhoon.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Typhoon/Typhoon.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/libextobjc/libextobjc.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/libextobjc/libextobjc.xcconfig" />
     </list>
     <ignored path="PixabayTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -662,12 +66,162 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulatoriPhone_5_9.3_i386_1" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulatoriPhone_4s_9.3_i386_1" />
   <component name="FavoritesManager">
     <favorites_list name="PixabayTest" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PBTPhotosNetworkClient.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <folding>
+                <element signature="e#128#162#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PBTQueryResponseMappingTests.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PixabayTestTests/Mapping/PBTQueryResponseMappingTests.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <element signature="e#135#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PBTPhotosNetworkClient.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PBTPhotosQueryResponseMapper.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapper.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PBTPhotosQueryResponseMapper.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapper.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PBTPhotosQueryResponse.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="correct_query_response.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PixabayTestTests/TestFiles/correct_query_response.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="15" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PBTPhotosService.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PBTPhotosService.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#122#150#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PBTPhotosQueryResponse.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#128#162#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Specta Test" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotoDetail Module/PBTPhotoDetailService.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotoDetail Module/PBTPhotoDetailService.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/CommonClasses/PBTRequest.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/Common/PBTRequest.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/Common/NSURLSession+Path.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/Common/NSURLSession+Path.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/Common/PBTRoutesBuilder.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapping.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapping.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Models/PBTPhoto.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/Common/PBTRoutesBuilder.h" />
+        <option value="$PROJECT_DIR$/Podfile" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.m" />
+        <option value="$PROJECT_DIR$/PixabayTestTests/TestFiles/correct_query_response.json" />
+        <option value="$PROJECT_DIR$/PixabayTestTests/PBTTestHelperFunctions.h" />
+        <option value="$PROJECT_DIR$/PixabayTestTests/PBTTestHelperFunctions.m" />
+        <option value="$PROJECT_DIR$/PixabayTestTests/Mapping/PBTPhotoMappingTests.m" />
+        <option value="$PROJECT_DIR$/PixabayTestTests/Mapping/PBTQueryResponseMappingTests.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.m" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" />
@@ -675,8 +229,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="1440" />
+    <option name="y" value="53" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -685,7 +241,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -703,13 +259,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pods" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -720,6 +279,84 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="PixabayTest" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Products" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pods" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTestTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTestTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestFiles" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTestTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mapping" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -736,18 +373,52 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Frameworks" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="FullScreen" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/PixabayTest.xcworkspace" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="PixabayTestTests" />
+    <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Application.PixabayTest">
+  <component name="RunManager" selected="XCTest/Kiwi.PixabayTestTests">
     <configuration default="false" name="PixabayTest" type="AppleRunConfiguration" factoryName="Application" temporary="true" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PixabayTest" TARGET_NAME="PixabayTest" CONFIG_NAME="Debug" SCHEME_NAME="PixabayTest" RUN_TARGET_PROJECT_NAME="PixabayTest" RUN_TARGET_NAME="PixabayTest" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
@@ -789,7 +460,18 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="PixabayTestTests" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PixabayTest" TARGET_NAME="PixabayTestTests" CONFIG_NAME="Debug" SCHEME_NAME="PixabayTestTests" TEST_MODE="SUITE_TEST" XCODE_SKIPPED_TESTS_HASH_CODE="0">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="AFNetworking" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="AFNetworking" CONFIG_NAME="Debug" SCHEME_NAME="AFNetworking" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Expecta" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="Expecta" CONFIG_NAME="Debug" SCHEME_NAME="Expecta" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
         <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
@@ -810,7 +492,14 @@
       </EXTENSION>
       <method />
     </configuration>
-    <configuration default="false" name="Pods" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="Pods" CONFIG_NAME="Debug" SCHEME_NAME="Pods" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+    <configuration default="false" name="OCMock" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="OCMock" CONFIG_NAME="Debug" SCHEME_NAME="OCMock" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Specta" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="Specta" CONFIG_NAME="Debug" SCHEME_NAME="Specta" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
         <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
@@ -824,13 +513,32 @@
       </EXTENSION>
       <method />
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Application.PixabayTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.AFNetworking" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FrameAccessor" />
-      <item index="3" class="java.lang.String" itemvalue="Application.libextobjc" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Pods" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Typhoon" />
+    <configuration default="false" name="Pods-PixabayTest-PixabayTestTests" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="Pods-PixabayTest-PixabayTestTests" CONFIG_NAME="Debug" SCHEME_NAME="Pods-PixabayTest-PixabayTestTests" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-PixabayTest" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="Pods-PixabayTest" CONFIG_NAME="Debug" SCHEME_NAME="Pods-PixabayTest" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="11">
+      <item index="0" class="java.lang.String" itemvalue="XCTest/Kiwi.PixabayTestTests" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PixabayTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AFNetworking" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Expecta" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FrameAccessor" />
+      <item index="5" class="java.lang.String" itemvalue="Application.libextobjc" />
+      <item index="6" class="java.lang.String" itemvalue="Application.OCMock" />
+      <item index="7" class="java.lang.String" itemvalue="Application.Specta" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Typhoon" />
+      <item index="9" class="java.lang.String" itemvalue="Application.Pods-PixabayTest-PixabayTestTests" />
+      <item index="10" class="java.lang.String" itemvalue="Application.Pods-PixabayTest" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -851,29 +559,59 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PixabayTestTests - 2016.05.27 at 14h 37m 12s.xml">
+      <configuration name="PixabayTestTests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="PixabayTestTests - 2016.05.27 at 14h 40m 19s.xml">
+      <configuration name="PixabayTestTests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="PixabayTestTests - 2016.05.27 at 14h 41m 08s.xml">
+      <configuration name="PixabayTestTests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="PixabayTestTests - 2016.05.27 at 15h 05m 51s.xml">
+      <configuration name="PixabayTestTests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="PixabayTestTests - 2016.05.27 at 15h 06m 23s.xml">
+      <configuration name="PixabayTestTests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="PixabayTestTests - 2016.05.27 at 15h 15m 23s.xml">
+      <configuration name="PixabayTestTests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="PixabayTestTests - 2016.05.27 at 15h 25m 07s.xml">
+      <configuration name="PixabayTestTests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="PixabayTestTests - 2016.05.27 at 15h 25m 18s.xml">
+      <configuration name="PixabayTestTests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="PixabayTestTests - 2016.05.27 at 15h 28m 52s.xml">
+      <configuration name="PixabayTestTests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="1440" y="53" width="1920" height="1080" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.47498682" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39877924" sideWeight="0.5207668" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="1540" y="153" width="1720" height="880" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279503" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655138" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15151516" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11448349" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39975095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39877924" sideWeight="0.47923324" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -881,7 +619,337 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#122#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Models/PBTPhoto.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Models/PBTPhoto.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/ViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoList Module/sfdf.m" />
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoList Module/sfdf.h" />
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoList Module/fsdf.m" />
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoList Module/fsdf.h" />
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoList Module/sdf.m" />
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoList Module/sdf.h" />
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoDetail Module/PBTPhotoDetailService.h" />
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoDetail Module/PBTPhotoDetailService.m" />
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/CommonClasses/PBTRequest.m" />
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/CommonClasses/PBTRequest.h" />
+    <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="205" column="21" selection-start-line="205" selection-start-column="21" selection-end-line="205" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/Common/NSURLSession+Path.h" />
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/Common/NSURLSession+Path.m" />
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/Common/PBTRoutesBuilder.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/Common/PBTRequest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLCache.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLSession.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2745">
+          <caret line="183" column="17" selection-start-line="183" selection-start-column="17" selection-end-line="183" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Models/PBTPhoto.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLResponse.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/libextobjc/EXTScope.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/libextobjc/extobjc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Models/PBTPhoto.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/Common/PBTRoutesBuilder.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTestTests/Mapping/PBTQueryResponseMappingTests.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTestTests/PixabayTestTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTestTests/Info.plist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTestTests/PBTTestHelperFunctions.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTestTests/PBTTestHelperFunctions.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="e#128#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTestTests/Mapping/PBTPhotoMappingTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#127#153#0" expanded="true" />
+            <marker date="1464351900000" expanded="true" signature="429:1078" placeholder="^{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTestTests/TestFiles/correct_query_response.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTestTests/Mapping/PBTQueryResponseMappingTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#135#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#122#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="e#128#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#128#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapper.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

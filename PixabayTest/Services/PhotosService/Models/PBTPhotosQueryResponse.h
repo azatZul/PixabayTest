@@ -1,0 +1,1 @@
+//// PBTPhotosQueryResponse// PixabayTest////  Created by azat on 27/05/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>@class PBTPhoto;@interface PBTPhotosQueryResponse : NSObject@property (nonatomic, assign) NSInteger total;@property (nonatomic, strong) NSArray<PBTPhoto *> *hits;@end
