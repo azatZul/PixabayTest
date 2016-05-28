@@ -1,0 +1,1 @@
+//// PBTPhotoDetailModuleFactory// PixabayTest////  Created by azat on 28/05/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>@protocol PBTPhotoDetailModuleInput;@protocol PBTPhotoDetailModuleFactory <NSObject>- (id<PBTPhotoDetailModuleInput>)photoDetailModuleInput;@end

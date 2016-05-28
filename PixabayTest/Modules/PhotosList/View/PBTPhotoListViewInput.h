@@ -1,0 +1,1 @@
+//// PBTPhotoListViewInput// PixabayTest////  Created by azat on 27/05/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>@protocol PBTPhotoListViewInput <NSObject>- (void)setTitle:(NSString *)title;- (void)showPhotos:(NSArray *)photos;- (void)showLoader;- (void)hideLoader;- (void)showErrorWithMessage:(NSString *)message;@end

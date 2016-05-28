@@ -1,0 +1,1 @@
+//// PBTPhotoDetailModuleInput// PixabayTest////  Created by azat on 28/05/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>@class PBTPhoto;@class UINavigationController;@protocol PBTPhotoDetailModuleInput <NSObject>- (void)presentPhotoDetail:(PBTPhoto * )photo from:(UINavigationController *)controller;@end

@@ -7,32 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DDAD01548D664B587A447F9 /* libPods-PixabayTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8374FE8C3B08026B5666EBAE /* libPods-PixabayTestTests.a */; };
+		2DEE2045FC50D266C3C1C1C6 /* PBTPhotoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2082C6F180B81E745811 /* PBTPhotoListViewController.m */; };
+		2DEE206D5B79725E8A79800F /* PBTPhotoListRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE257EC7B4658239BE2154 /* PBTPhotoListRouter.m */; };
 		2DEE206EEBABC73AE481AF40 /* PBTPhotoMappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2ACFEC7EA9677AECADBE /* PBTPhotoMappingTests.m */; };
 		2DEE208514168D6BE2BE73C3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE27126C5A9CB7F49EAC8F /* Info.plist */; };
+		2DEE208FE7D3BF89899F69A4 /* PBTPhotoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2AF41780C2A27C71C54D /* PBTPhotoTableViewCell.m */; };
 		2DEE20B68EFE78033F9050C6 /* PBTPhotosQueryResponseMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE20CE126894774AFD248C /* PBTPhotosQueryResponseMapper.m */; };
 		2DEE20CC57D57D4D265C242C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE20F19562C0A3EF64BB15 /* main.m */; };
-		2DEE20D3B22A03067B61B852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE22642EE874AC897CE3B8 /* LaunchScreen.storyboard */; };
 		2DEE20EB33A97440DE29D874 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE2E8DA5618D9C12395BA2 /* Info.plist */; };
 		2DEE215F9080E2F349DD1718 /* PBTPhotosMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE239845487965B5E644B4 /* PBTPhotosMapper.m */; };
 		2DEE2168D2F9E38708A8CBF8 /* PBTQueryResponseMappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2B8C7688E4FE4D663AAF /* PBTQueryResponseMappingTests.m */; };
+		2DEE21C8F59040D5E65E33D7 /* PBTPhotoListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE22602C9CBF25E495330C /* PBTPhotoListPresenter.m */; };
+		2DEE21EFACD2F5A8D7B423E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE21794426B2949728EC8D /* LaunchScreen.storyboard */; };
+		2DEE22C75F841B6CE55482F1 /* PBTPhotoDetailRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE29E20C0B47A32BFB5474 /* PBTPhotoDetailRouter.m */; };
 		2DEE22FB267BD01AE905A822 /* PBTPhotosMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE239845487965B5E644B4 /* PBTPhotosMapper.m */; };
-		2DEE232EF943F1288D0B477B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE2F68AC47A5518D9B3F9B /* Info.plist */; };
 		2DEE233C9A848BCF53D7B834 /* PBTPhotosQueryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE297EEBDD2282ED1EFC95 /* PBTPhotosQueryResponse.m */; };
-		2DEE237EFE3EABDB2C845EFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2212E76F422445808EBA /* AppDelegate.m */; };
-		2DEE246CBDE737A5DC69B9A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE2827A624C2142E4CB11E /* Assets.xcassets */; };
-		2DEE24B0567E48BCE4D0A0E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE2FD7E6641489AAA24D91 /* Main.storyboard */; };
+		2DEE25C88B0B56086F38B424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE2C378B744340312FCD8A /* Assets.xcassets */; };
 		2DEE25EB06BD413D36D7925B /* PBTTestHelperFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE233FFD990B63E54647EB /* PBTTestHelperFunctions.m */; };
 		2DEE2640A98400CA0362FF9D /* correct_query_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE22389CA48519FC7B501C /* correct_query_response.json */; };
 		2DEE270F46C23F50E27CECA9 /* PBTPhotosNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2C9712313A26C60B417F /* PBTPhotosNetworkClient.m */; };
-		2DEE29DF5644DB68C69C6B70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE27DF09091FF2A186F884 /* ViewController.m */; };
+		2DEE2735A083743E32EE0A15 /* PBTPhotoDetailPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE271AD9B174BAC0605626 /* PBTPhotoDetailPresenter.m */; };
+		2DEE27CF74F1337E1AA2CDBF /* PBTPhotosServiceAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2C7ABCF33C315FF50971 /* PBTPhotosServiceAssembly.m */; };
+		2DEE27DE775959DBB9EC0F09 /* PBTPhotoListAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE277F4E311B9C458CFEB0 /* PBTPhotoListAssembly.m */; };
+		2DEE2A849CE509D97F8BFC6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2743E9FE6E4B4A2CF86F /* AppDelegate.m */; };
+		2DEE2A9D6D85D8C22BF48567 /* PBTNetworkConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2E8419EB1032DB440EBA /* PBTNetworkConstants.m */; };
+		2DEE2AB371101ABCBD72DAE1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DEE2717A94DED5945309186 /* Info.plist */; };
 		2DEE2B7B1904F4EB2E5BF115 /* PixabayTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2024C814828E38A1151D /* PixabayTestUITests.m */; };
+		2DEE2C55D90C7922BF77B6D3 /* PBTAppDelegateAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2A705ACFEEEB776F7315 /* PBTAppDelegateAssembly.m */; };
+		2DEE2C6191E536ECCE399AE1 /* PBTPhotoFetchServiceAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2BFDC87D8880FFEF68CF /* PBTPhotoFetchServiceAssembly.m */; };
+		2DEE2C684522E4694DC580BF /* PBTPhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE23A5E6F28BE6AE2BEFF3 /* PBTPhotoDetailViewController.m */; };
 		2DEE2DB2FC9416CD42E0F75B /* PBTPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE243CEBA0857A1FCD3F97 /* PBTPhoto.m */; };
+		2DEE2E1C596E99A1998B1C74 /* PBTPhotoFetchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE23BCF630BA2217E6E020 /* PBTPhotoFetchService.m */; };
+		2DEE2E545670104BF5112308 /* PBTPhotoFetchNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2E0D41F4A0F2EE447AE1 /* PBTPhotoFetchNetworkClient.m */; };
+		2DEE2E87C017B76510308DB2 /* PBTPhotoDetailModuleAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE210B3F590000E7E5C4CA /* PBTPhotoDetailModuleAssembly.m */; };
+		2DEE2E9097FB789BEAA8CDA3 /* PBTPhotoDetailInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE26243661E7FDB31D1EE1 /* PBTPhotoDetailInteractor.m */; };
 		2DEE2ECFEB3319C8CB31EEF3 /* PBTPhotosService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2D932C27F5FF8EEDEEA2 /* PBTPhotosService.m */; };
-		2DEE2F5D5C79A7E443B46859 /* PBTRoutesBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE22CCA61B5E17D5AE419F /* PBTRoutesBuilder.m */; };
-		5FD3CA827A86EA51FDFCF925 /* libPods-PixabayTest-PixabayTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C528B6A2DCAA1A49FCC66603 /* libPods-PixabayTest-PixabayTestTests.a */; };
-		9F8C56C95FCB5EA5F1F9C812 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A7DBA6EFB94208CACF7C73 /* libPods.a */; };
-		A30A22B196A7AAFB48564B1B /* libPods-PixabayTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82516878739280FF5E21D456 /* libPods-PixabayTest.a */; };
+		2DEE2F1595093917AD29EBF9 /* PBTPhotoListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE29B82FAB5A369E54D816 /* PBTPhotoListInteractor.m */; };
+		590B33E3B8D026D1F468E792 /* libPods-PixabayTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD40F684CAF8197E6D48D2F8 /* libPods-PixabayTestTests.a */; };
+		E7FEED17B38FE745343467E5 /* libPods-PixabayTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9D4C01103F6A1880724714 /* libPods-PixabayTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,53 +65,88 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24607AB8337DC4901FD5DE5C /* Pods-PixabayTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixabayTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		17B1052A0AD06F8018C2FD1F /* Pods-PixabayTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixabayTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest.release.xcconfig"; sourceTree = "<group>"; };
+		2DEE2004BEA4947D7FEAE75B /* PBTPhotoDetailRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoDetailRouterInput.h; sourceTree = "<group>"; };
+		2DEE201440AB83C5EAFAE1DE /* PBTPhotoDetailRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoDetailRouter.h; sourceTree = "<group>"; };
 		2DEE2024C814828E38A1151D /* PixabayTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PixabayTestUITests.m; sourceTree = "<group>"; };
-		2DEE209BD13C5336F26DC7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DEE204DF7B55BCF887C3D6A /* PBTPhotoFetchServiceAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoFetchServiceAssembly.h; sourceTree = "<group>"; };
+		2DEE2082C6F180B81E745811 /* PBTPhotoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotoListViewController.m; sourceTree = "<group>"; };
 		2DEE20CE126894774AFD248C /* PBTPhotosQueryResponseMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotosQueryResponseMapper.m; sourceTree = "<group>"; };
+		2DEE20D8FC35BCC2480ECC78 /* PBTAppDelegateAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTAppDelegateAssembly.h; sourceTree = "<group>"; };
+		2DEE20E51B575A2A91112540 /* PBTPhotoListInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoListInteractorOutput.h; sourceTree = "<group>"; };
 		2DEE20F19562C0A3EF64BB15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DEE210B3F590000E7E5C4CA /* PBTPhotoDetailModuleAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotoDetailModuleAssembly.m; sourceTree = "<group>"; };
+		2DEE214CD102853C2EBA939E /* PBTPhotoDetailInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoDetailInteractorInput.h; sourceTree = "<group>"; };
+		2DEE21AF84413DACAF44EAF1 /* PBTPhotoListViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoListViewOutput.h; sourceTree = "<group>"; };
+		2DEE21D1E23961624CA10B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PixabayTest/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		2DEE21FDBB1FC4850EC99C66 /* PBTPhotosNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotosNetworkClient.h; sourceTree = "<group>"; };
-		2DEE2212E76F422445808EBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DEE222196A581BFD2B18BCF /* PBTPhotoFetchNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoFetchNetworkClient.h; sourceTree = "<group>"; };
+		2DEE2221E03AE2E8A131650D /* PBTPhotoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoListViewController.h; sourceTree = "<group>"; };
 		2DEE22350B49E4C785BCB7BC /* PBTPhotosQueryResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotosQueryResponse.h; sourceTree = "<group>"; };
 		2DEE223697E883A3BAB49B2D /* PBTPhotosQueryResponseMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotosQueryResponseMapper.h; sourceTree = "<group>"; };
 		2DEE22389CA48519FC7B501C /* correct_query_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = correct_query_response.json; sourceTree = "<group>"; };
 		2DEE2249D2ACFBABDC800D95 /* PixabayTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixabayTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DEE22CCA61B5E17D5AE419F /* PBTRoutesBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTRoutesBuilder.m; sourceTree = "<group>"; };
+		2DEE224D4B53B8F0D8D456E9 /* PBTPhotosServiceAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotosServiceAssembly.h; sourceTree = "<group>"; };
+		2DEE22602C9CBF25E495330C /* PBTPhotoListPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotoListPresenter.m; sourceTree = "<group>"; };
 		2DEE22D63FF5C124BE304649 /* PBTRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTRequest.h; sourceTree = "<group>"; };
 		2DEE233FFD990B63E54647EB /* PBTTestHelperFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTTestHelperFunctions.m; sourceTree = "<group>"; };
 		2DEE239845487965B5E644B4 /* PBTPhotosMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotosMapper.m; sourceTree = "<group>"; };
+		2DEE23A5E6F28BE6AE2BEFF3 /* PBTPhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotoDetailViewController.m; sourceTree = "<group>"; };
+		2DEE23BCF630BA2217E6E020 /* PBTPhotoFetchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotoFetchService.m; sourceTree = "<group>"; };
+		2DEE23C57517437A632A5874 /* PBTPhotoDetailViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoDetailViewInput.h; sourceTree = "<group>"; };
 		2DEE240CDBE3CD1962B8F31F /* PixabayTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixabayTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DEE243CEBA0857A1FCD3F97 /* PBTPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhoto.m; sourceTree = "<group>"; };
+		2DEE24C309E6DF495EB4D727 /* PBTPhotoDetailPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoDetailPresenter.h; sourceTree = "<group>"; };
+		2DEE25072CBF2DF08A36E22D /* PBTPhotoListInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoListInteractorInput.h; sourceTree = "<group>"; };
+		2DEE257EC7B4658239BE2154 /* PBTPhotoListRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotoListRouter.m; sourceTree = "<group>"; };
+		2DEE25C9EE0D0B5011EFBC50 /* PBTPhotoDetailInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoDetailInteractorOutput.h; sourceTree = "<group>"; };
+		2DEE26243661E7FDB31D1EE1 /* PBTPhotoDetailInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotoDetailInteractor.m; sourceTree = "<group>"; };
+		2DEE262E00FDAA782EBC4DF0 /* PBTPhotoListRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoListRouter.h; sourceTree = "<group>"; };
+		2DEE26739795F4896CDDD06D /* PBTPhotoDetailModuleInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoDetailModuleInput.h; sourceTree = "<group>"; };
+		2DEE26ADE552884D43EF1E10 /* PBTPhotoDetailModuleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoDetailModuleFactory.h; sourceTree = "<group>"; };
+		2DEE26D633B60A3973553A8B /* PBTPhotoListInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoListInteractor.h; sourceTree = "<group>"; };
+		2DEE26F25DD14C0D5C169256 /* PBTNetworkConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTNetworkConstants.h; sourceTree = "<group>"; };
 		2DEE27126C5A9CB7F49EAC8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		2DEE278B73706A8D1A2AADBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2DEE27DF09091FF2A186F884 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DEE2717A94DED5945309186 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		2DEE271AD9B174BAC0605626 /* PBTPhotoDetailPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotoDetailPresenter.m; sourceTree = "<group>"; };
+		2DEE27258E9F730E965A4B7F /* PBTPhotoListViewInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoListViewInput.h; sourceTree = "<group>"; };
+		2DEE2743E9FE6E4B4A2CF86F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DEE277F4E311B9C458CFEB0 /* PBTPhotoListAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotoListAssembly.m; sourceTree = "<group>"; };
 		2DEE27F75F9F61D2C4EEA15B /* PBTPhotosMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotosMapper.h; sourceTree = "<group>"; };
-		2DEE2827A624C2142E4CB11E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DEE297EEBDD2282ED1EFC95 /* PBTPhotosQueryResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotosQueryResponse.m; sourceTree = "<group>"; };
-		2DEE298EAC35BFE7ADFB3562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DEE29B82FAB5A369E54D816 /* PBTPhotoListInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotoListInteractor.m; sourceTree = "<group>"; };
+		2DEE29C7BC8FCA3AE27AF416 /* PBTPhotoDetailModuleAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoDetailModuleAssembly.h; sourceTree = "<group>"; };
+		2DEE29E20C0B47A32BFB5474 /* PBTPhotoDetailRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotoDetailRouter.m; sourceTree = "<group>"; };
+		2DEE2A705ACFEEEB776F7315 /* PBTAppDelegateAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTAppDelegateAssembly.m; sourceTree = "<group>"; };
 		2DEE2A8F41953F8F42E9699A /* PBTPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhoto.h; sourceTree = "<group>"; };
+		2DEE2AAEEE984E4A058272AF /* PBTPhotoListAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoListAssembly.h; sourceTree = "<group>"; };
 		2DEE2ACFEC7EA9677AECADBE /* PBTPhotoMappingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotoMappingTests.m; sourceTree = "<group>"; };
-		2DEE2AD3D7EB8C765E7482A0 /* PBTRoutesBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTRoutesBuilder.h; sourceTree = "<group>"; };
+		2DEE2ADE8E43C9199F13C418 /* PBTPhotoListPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoListPresenter.h; sourceTree = "<group>"; };
+		2DEE2AF41780C2A27C71C54D /* PBTPhotoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotoTableViewCell.m; sourceTree = "<group>"; };
 		2DEE2B0013205A687018B746 /* PBTTestHelperFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTTestHelperFunctions.h; sourceTree = "<group>"; };
+		2DEE2B0A6E8432A8F4D512B5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2DEE2B7F43B6FDB7E7869ECE /* PixabayTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixabayTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DEE2B8C7688E4FE4D663AAF /* PBTQueryResponseMappingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTQueryResponseMappingTests.m; sourceTree = "<group>"; };
-		2DEE2BEB1E5D7322F36ADB83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DEE2BFDC87D8880FFEF68CF /* PBTPhotoFetchServiceAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotoFetchServiceAssembly.m; sourceTree = "<group>"; };
+		2DEE2C378B744340312FCD8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DEE2C7ABCF33C315FF50971 /* PBTPhotosServiceAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotosServiceAssembly.m; sourceTree = "<group>"; };
 		2DEE2C9712313A26C60B417F /* PBTPhotosNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotosNetworkClient.m; sourceTree = "<group>"; };
+		2DEE2CBA820E141CA8DDB95B /* PBTPhotoFetchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoFetchService.h; sourceTree = "<group>"; };
+		2DEE2D08EDD634AC38A1E9AA /* PBTPhotoDetailViewOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoDetailViewOutput.h; sourceTree = "<group>"; };
 		2DEE2D932C27F5FF8EEDEEA2 /* PBTPhotosService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotosService.m; sourceTree = "<group>"; };
+		2DEE2E0D41F4A0F2EE447AE1 /* PBTPhotoFetchNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTPhotoFetchNetworkClient.m; sourceTree = "<group>"; };
+		2DEE2E739141F97DBC20CC37 /* PBTPhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoDetailViewController.h; sourceTree = "<group>"; };
+		2DEE2E8419EB1032DB440EBA /* PBTNetworkConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTNetworkConstants.m; sourceTree = "<group>"; };
 		2DEE2E8DA5618D9C12395BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		2DEE2F68AC47A5518D9B3F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		2DEE2F2B605735AA7B352E3D /* PBTPhotoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoTableViewCell.h; sourceTree = "<group>"; };
+		2DEE2F74869E46F054BC2095 /* PBTPhotoListRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoListRouterInput.h; sourceTree = "<group>"; };
 		2DEE2F776C1C7ADCB286F16F /* PBTPhotosService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotosService.h; sourceTree = "<group>"; };
-		47948BF9B4EA762A31A8F609 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		66A7DBA6EFB94208CACF7C73 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		82516878739280FF5E21D456 /* libPods-PixabayTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PixabayTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8374FE8C3B08026B5666EBAE /* libPods-PixabayTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PixabayTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		899D294BA5B738D9C317B574 /* Pods-PixabayTest-PixabayTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixabayTest-PixabayTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests.release.xcconfig"; sourceTree = "<group>"; };
-		89C12A9D520EE5D49FEC2599 /* Pods-PixabayTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixabayTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest.release.xcconfig"; sourceTree = "<group>"; };
-		9FCF4AC41D47B54CC0928615 /* Pods-PixabayTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixabayTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests.release.xcconfig"; sourceTree = "<group>"; };
-		AC28C8505A084299F42A51CB /* Pods-PixabayTest-PixabayTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixabayTest-PixabayTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B3C88FB054F9E27112E5A071 /* Pods-PixabayTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixabayTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest.debug.xcconfig"; sourceTree = "<group>"; };
-		C528B6A2DCAA1A49FCC66603 /* libPods-PixabayTest-PixabayTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PixabayTest-PixabayTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC17CFDAA63FC7BA74573858 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2DEE2F95AA017140ED229D14 /* PBTPhotoDetailInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTPhotoDetailInteractor.h; sourceTree = "<group>"; };
+		3B6566E753AFE79048D91FD9 /* Pods-PixabayTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixabayTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F9D4C01103F6A1880724714 /* libPods-PixabayTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PixabayTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		955629CA685965F6609682D1 /* Pods-PixabayTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixabayTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest.debug.xcconfig"; sourceTree = "<group>"; };
+		C5BC9311E727CCF0B18BA45B /* Pods-PixabayTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixabayTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD40F684CAF8197E6D48D2F8 /* libPods-PixabayTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PixabayTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DDAD01548D664B587A447F9 /* libPods-PixabayTestTests.a in Frameworks */,
-				5FD3CA827A86EA51FDFCF925 /* libPods-PixabayTest-PixabayTestTests.a in Frameworks */,
+				590B33E3B8D026D1F468E792 /* libPods-PixabayTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,14 +169,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F8C56C95FCB5EA5F1F9C812 /* libPods.a in Frameworks */,
-				A30A22B196A7AAFB48564B1B /* libPods-PixabayTest.a in Frameworks */,
+				E7FEED17B38FE745343467E5 /* libPods-PixabayTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		273BF7DD17A96BBE30A30BA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F9D4C01103F6A1880724714 /* libPods-PixabayTest.a */,
+				CD40F684CAF8197E6D48D2F8 /* libPods-PixabayTestTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DEE2004DB6F843935476988 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE29B82FAB5A369E54D816 /* PBTPhotoListInteractor.m */,
+				2DEE26D633B60A3973553A8B /* PBTPhotoListInteractor.h */,
+				2DEE25072CBF2DF08A36E22D /* PBTPhotoListInteractorInput.h */,
+				2DEE20E51B575A2A91112540 /* PBTPhotoListInteractorOutput.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2DEE2014B50022C707F7CAAF /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE26243661E7FDB31D1EE1 /* PBTPhotoDetailInteractor.m */,
+				2DEE2F95AA017140ED229D14 /* PBTPhotoDetailInteractor.h */,
+				2DEE214CD102853C2EBA939E /* PBTPhotoDetailInteractorInput.h */,
+				2DEE25C9EE0D0B5011EFBC50 /* PBTPhotoDetailInteractorOutput.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2DEE20B807924395CF210FB6 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE210B3F590000E7E5C4CA /* PBTPhotoDetailModuleAssembly.m */,
+				2DEE29C7BC8FCA3AE27AF416 /* PBTPhotoDetailModuleAssembly.h */,
+				2DEE26ADE552884D43EF1E10 /* PBTPhotoDetailModuleFactory.h */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		2DEE21B5ABBE00983356E853 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE257EC7B4658239BE2154 /* PBTPhotoListRouter.m */,
+				2DEE262E00FDAA782EBC4DF0 /* PBTPhotoListRouter.h */,
+				2DEE2F74869E46F054BC2095 /* PBTPhotoListRouterInput.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2DEE21D1469F01D957621EF8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE2AF41780C2A27C71C54D /* PBTPhotoTableViewCell.m */,
+				2DEE2F2B605735AA7B352E3D /* PBTPhotoTableViewCell.h */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		2DEE221B118719F6866B52D0 /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +257,8 @@
 		2DEE236840945577048BB8E0 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				2DEE2A8EC4CFB7D3BBED8DE3 /* PhotosList */,
+				2DEE25006B007FF918E76E5D /* PhotoDetail */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -163,9 +270,29 @@
 				2DEE2607E96519AE18B6585A /* PixabayTest */,
 				2DEE24FF7793944552BC1A32 /* PixabayTestTests */,
 				2DEE27B0F7381690C96ADCB1 /* PixabayTestUITests */,
-				50CF193D5E4C6F57E5F537EA /* Pods */,
-				7802F826982E2D47C6F41EBD /* Frameworks */,
+				D921B2875449ACC543F4D496 /* Pods */,
+				273BF7DD17A96BBE30A30BA6 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		2DEE24C46BCFFFD05E9B16C4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE2E0D41F4A0F2EE447AE1 /* PBTPhotoFetchNetworkClient.m */,
+				2DEE222196A581BFD2B18BCF /* PBTPhotoFetchNetworkClient.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2DEE24D96E956F2B62FDE96A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE2743E9FE6E4B4A2CF86F /* AppDelegate.m */,
+				2DEE2B0A6E8432A8F4D512B5 /* AppDelegate.h */,
+				2DEE2A705ACFEEEB776F7315 /* PBTAppDelegateAssembly.m */,
+				2DEE20D8FC35BCC2480ECC78 /* PBTAppDelegateAssembly.h */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 		2DEE24FF7793944552BC1A32 /* PixabayTestTests */ = {
@@ -181,23 +308,39 @@
 			path = PixabayTestTests;
 			sourceTree = "<group>";
 		};
+		2DEE25006B007FF918E76E5D /* PhotoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE20B807924395CF210FB6 /* Assembly */,
+				2DEE2014B50022C707F7CAAF /* Interactor */,
+				2DEE2F8306ED79CDDC0F0D6D /* Presenter */,
+				2DEE2E478608CA99D419D781 /* Router */,
+				2DEE2EDD452AFD203801C621 /* View */,
+			);
+			path = PhotoDetail;
+			sourceTree = "<group>";
+		};
 		2DEE2607E96519AE18B6585A /* PixabayTest */ = {
 			isa = PBXGroup;
 			children = (
-				2DEE2F68AC47A5518D9B3F9B /* Info.plist */,
-				2DEE2827A624C2142E4CB11E /* Assets.xcassets */,
-				2DEE22642EE874AC897CE3B8 /* LaunchScreen.storyboard */,
 				2DEE287A2509B2932FFDB4DD /* Supporting Files */,
-				2DEE2BEB1E5D7322F36ADB83 /* AppDelegate.h */,
-				2DEE2212E76F422445808EBA /* AppDelegate.m */,
-				2DEE2FD7E6641489AAA24D91 /* Main.storyboard */,
-				2DEE278B73706A8D1A2AADBF /* ViewController.h */,
-				2DEE27DF09091FF2A186F884 /* ViewController.m */,
 				2DEE2C4BE14B80C5F479A118 /* Services */,
 				2DEE236840945577048BB8E0 /* Modules */,
 				2DEE27BD05BEB1B3591AA909 /* Models */,
+				2DEE24D96E956F2B62FDE96A /* AppDelegate */,
+				2DEE26BB30822C40FD3DF393 /* Resources */,
 			);
 			path = PixabayTest;
+			sourceTree = "<group>";
+		};
+		2DEE26BB30822C40FD3DF393 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE2C378B744340312FCD8A /* Assets.xcassets */,
+				2DEE2717A94DED5945309186 /* Info.plist */,
+				2DEE21794426B2949728EC8D /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		2DEE27B0F7381690C96ADCB1 /* PixabayTestUITests */ = {
@@ -218,12 +361,65 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		2DEE2807FBCCA6282B016DA9 /* PhotoFetchSerivce */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE23BCF630BA2217E6E020 /* PBTPhotoFetchService.m */,
+				2DEE2CBA820E141CA8DDB95B /* PBTPhotoFetchService.h */,
+				2DEE24C46BCFFFD05E9B16C4 /* Network */,
+				2DEE2D34200D518B7AB5C147 /* Assembly */,
+			);
+			path = PhotoFetchSerivce;
+			sourceTree = "<group>";
+		};
 		2DEE287A2509B2932FFDB4DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				2DEE20F19562C0A3EF64BB15 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DEE29E32496E96B54D8761C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE2082C6F180B81E745811 /* PBTPhotoListViewController.m */,
+				2DEE2221E03AE2E8A131650D /* PBTPhotoListViewController.h */,
+				2DEE27258E9F730E965A4B7F /* PBTPhotoListViewInput.h */,
+				2DEE21AF84413DACAF44EAF1 /* PBTPhotoListViewOutput.h */,
+				2DEE21D1469F01D957621EF8 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DEE2A554DFA9242CF1372F7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE22602C9CBF25E495330C /* PBTPhotoListPresenter.m */,
+				2DEE2ADE8E43C9199F13C418 /* PBTPhotoListPresenter.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2DEE2A762E7A9DB42D7A3E84 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE277F4E311B9C458CFEB0 /* PBTPhotoListAssembly.m */,
+				2DEE2AAEEE984E4A058272AF /* PBTPhotoListAssembly.h */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		2DEE2A8EC4CFB7D3BBED8DE3 /* PhotosList */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE2A762E7A9DB42D7A3E84 /* Assembly */,
+				2DEE2004DB6F843935476988 /* Interactor */,
+				2DEE29E32496E96B54D8761C /* View */,
+				2DEE21B5ABBE00983356E853 /* Router */,
+				2DEE2A554DFA9242CF1372F7 /* Presenter */,
+			);
+			path = PhotosList;
 			sourceTree = "<group>";
 		};
 		2DEE2BF5C9B953008CA55675 /* Products */ = {
@@ -240,8 +436,8 @@
 			isa = PBXGroup;
 			children = (
 				2DEE22D63FF5C124BE304649 /* PBTRequest.h */,
-				2DEE22CCA61B5E17D5AE419F /* PBTRoutesBuilder.m */,
-				2DEE2AD3D7EB8C765E7482A0 /* PBTRoutesBuilder.h */,
+				2DEE2E8419EB1032DB440EBA /* PBTNetworkConstants.m */,
+				2DEE26F25DD14C0D5C169256 /* PBTNetworkConstants.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -256,8 +452,9 @@
 		2DEE2C4BE14B80C5F479A118 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				2DEE2E8B4108B98448515FCC /* PhotosService */,
+				2DEE2E8B4108B98448515FCC /* PhotoListService */,
 				2DEE2BF9D1B341FB9411DE15 /* Common */,
+				2DEE2807FBCCA6282B016DA9 /* PhotoFetchSerivce */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -270,6 +467,15 @@
 			path = TestFiles;
 			sourceTree = "<group>";
 		};
+		2DEE2D34200D518B7AB5C147 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE2BFDC87D8880FFEF68CF /* PBTPhotoFetchServiceAssembly.m */,
+				2DEE204DF7B55BCF887C3D6A /* PBTPhotoFetchServiceAssembly.h */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
 		2DEE2D3863B218C8650AD722 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +483,15 @@
 				2DEE22350B49E4C785BCB7BC /* PBTPhotosQueryResponse.h */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		2DEE2DCAEC68EB527699315F /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE2C7ABCF33C315FF50971 /* PBTPhotosServiceAssembly.m */,
+				2DEE224D4B53B8F0D8D456E9 /* PBTPhotosServiceAssembly.h */,
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 		2DEE2E14BA3D689EEEE0F46D /* Mapping */ = {
@@ -290,7 +505,17 @@
 			path = Mapping;
 			sourceTree = "<group>";
 		};
-		2DEE2E8B4108B98448515FCC /* PhotosService */ = {
+		2DEE2E478608CA99D419D781 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE29E20C0B47A32BFB5474 /* PBTPhotoDetailRouter.m */,
+				2DEE201440AB83C5EAFAE1DE /* PBTPhotoDetailRouter.h */,
+				2DEE2004BEA4947D7FEAE75B /* PBTPhotoDetailRouterInput.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2DEE2E8B4108B98448515FCC /* PhotoListService */ = {
 			isa = PBXGroup;
 			children = (
 				2DEE221B118719F6866B52D0 /* Network */,
@@ -298,34 +523,41 @@
 				2DEE2D932C27F5FF8EEDEEA2 /* PBTPhotosService.m */,
 				2DEE2F776C1C7ADCB286F16F /* PBTPhotosService.h */,
 				2DEE2D3863B218C8650AD722 /* Models */,
+				2DEE2DCAEC68EB527699315F /* Assembly */,
 			);
-			path = PhotosService;
+			path = PhotoListService;
 			sourceTree = "<group>";
 		};
-		50CF193D5E4C6F57E5F537EA /* Pods */ = {
+		2DEE2EDD452AFD203801C621 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DC17CFDAA63FC7BA74573858 /* Pods.debug.xcconfig */,
-				47948BF9B4EA762A31A8F609 /* Pods.release.xcconfig */,
-				24607AB8337DC4901FD5DE5C /* Pods-PixabayTestTests.debug.xcconfig */,
-				9FCF4AC41D47B54CC0928615 /* Pods-PixabayTestTests.release.xcconfig */,
-				B3C88FB054F9E27112E5A071 /* Pods-PixabayTest.debug.xcconfig */,
-				89C12A9D520EE5D49FEC2599 /* Pods-PixabayTest.release.xcconfig */,
-				AC28C8505A084299F42A51CB /* Pods-PixabayTest-PixabayTestTests.debug.xcconfig */,
-				899D294BA5B738D9C317B574 /* Pods-PixabayTest-PixabayTestTests.release.xcconfig */,
+				2DEE23A5E6F28BE6AE2BEFF3 /* PBTPhotoDetailViewController.m */,
+				2DEE2E739141F97DBC20CC37 /* PBTPhotoDetailViewController.h */,
+				2DEE23C57517437A632A5874 /* PBTPhotoDetailViewInput.h */,
+				2DEE2D08EDD634AC38A1E9AA /* PBTPhotoDetailViewOutput.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DEE2F8306ED79CDDC0F0D6D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE271AD9B174BAC0605626 /* PBTPhotoDetailPresenter.m */,
+				2DEE24C309E6DF495EB4D727 /* PBTPhotoDetailPresenter.h */,
+				2DEE26739795F4896CDDD06D /* PBTPhotoDetailModuleInput.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D921B2875449ACC543F4D496 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				955629CA685965F6609682D1 /* Pods-PixabayTest.debug.xcconfig */,
+				17B1052A0AD06F8018C2FD1F /* Pods-PixabayTest.release.xcconfig */,
+				C5BC9311E727CCF0B18BA45B /* Pods-PixabayTestTests.debug.xcconfig */,
+				3B6566E753AFE79048D91FD9 /* Pods-PixabayTestTests.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		7802F826982E2D47C6F41EBD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				66A7DBA6EFB94208CACF7C73 /* libPods.a */,
-				82516878739280FF5E21D456 /* libPods-PixabayTest.a */,
-				8374FE8C3B08026B5666EBAE /* libPods-PixabayTestTests.a */,
-				C528B6A2DCAA1A49FCC66603 /* libPods-PixabayTest-PixabayTestTests.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,12 +585,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DEE2684717522E088969B90 /* Build configuration list for PBXNativeTarget "PixabayTest" */;
 			buildPhases = (
-				5E6B5096E6BD5CAA83CBE86C /* 📦 Check Pods Manifest.lock */,
+				F4B0AECD468D44704778E791 /* 📦 Check Pods Manifest.lock */,
+				E9C3BE4848F505E9BED8731E /* uD83DuDCE6 Check Pods Manifest.lock */,
+				231582D19AF80FD6DD956135 /* uD83DuDCE6 Check Pods Manifest.lock */,
+				5E6B5096E6BD5CAA83CBE86C /* uD83DuDCE6 Check Pods Manifest.lock */,
 				2DEE27ED73855B38878D57A6 /* Sources */,
 				2DEE2D308BD15CB7BD634F62 /* Frameworks */,
 				2DEE29E45DB27AB2118025B1 /* Resources */,
-				8A6C5DE9E525ABF13DBA4379 /* 📦 Copy Pods Resources */,
-				36112772D63187B7210E0262 /* 📦 Embed Pods Frameworks */,
+				8A6C5DE9E525ABF13DBA4379 /* uD83DuDCE6 Copy Pods Resources */,
+				36112772D63187B7210E0262 /* uD83DuDCE6 Embed Pods Frameworks */,
+				A0B89A6F9918DF7CF473FFD1 /* uD83DuDCE6 Embed Pods Frameworks */,
+				56FDE49EC998DA75351229E5 /* uD83DuDCE6 Copy Pods Resources */,
+				87E28976CDAD80DD46207D89 /* uD83DuDCE6 Embed Pods Frameworks */,
+				3C447FD2278E0A682A352368 /* uD83DuDCE6 Copy Pods Resources */,
+				025E4CA12EA276A421B8BDE6 /* 📦 Embed Pods Frameworks */,
+				01C387F8576A478EC0FC6BFB /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -373,12 +614,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DEE2CBB514C652E819C7B97 /* Build configuration list for PBXNativeTarget "PixabayTestTests" */;
 			buildPhases = (
-				589E6AB859B4732648D4DE6B /* 📦 Check Pods Manifest.lock */,
+				114794438DA4EF9C2E7FDD53 /* 📦 Check Pods Manifest.lock */,
+				EFD3490B9BD4005BAA87A966 /* uD83DuDCE6 Check Pods Manifest.lock */,
+				03599E6E07E15B8F7BD54F1D /* uD83DuDCE6 Check Pods Manifest.lock */,
+				589E6AB859B4732648D4DE6B /* uD83DuDCE6 Check Pods Manifest.lock */,
 				2DEE201FA2C1F8601611F647 /* Sources */,
 				2DEE2A5838ACCCFF1CF234C6 /* Frameworks */,
 				2DEE2C17B11801348F55C6CE /* Resources */,
-				8933A04A25C38D175FFE1430 /* 📦 Copy Pods Resources */,
-				3B2D0AAA9FC8EA8A1AE70CE5 /* 📦 Embed Pods Frameworks */,
+				8933A04A25C38D175FFE1430 /* uD83DuDCE6 Copy Pods Resources */,
+				3B2D0AAA9FC8EA8A1AE70CE5 /* uD83DuDCE6 Embed Pods Frameworks */,
+				3E9F20D868A602BF8D2E9D54 /* uD83DuDCE6 Embed Pods Frameworks */,
+				3AFD24784EC3DD5ACE638D56 /* uD83DuDCE6 Copy Pods Resources */,
+				34CFDE13141853542F10A710 /* uD83DuDCE6 Embed Pods Frameworks */,
+				4FC926ECD9E18331D3667CC5 /* uD83DuDCE6 Copy Pods Resources */,
+				09EE5EFCA2A0D5A2BEDCED16 /* 📦 Embed Pods Frameworks */,
+				C1B83EAFA74C5D507F85F9CC /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -430,10 +680,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DEE232EF943F1288D0B477B /* Info.plist in Resources */,
-				2DEE246CBDE737A5DC69B9A8 /* Assets.xcassets in Resources */,
-				2DEE20D3B22A03067B61B852 /* LaunchScreen.storyboard in Resources */,
-				2DEE24B0567E48BCE4D0A0E6 /* Main.storyboard in Resources */,
+				2DEE25C88B0B56086F38B424 /* Assets.xcassets in Resources */,
+				2DEE2AB371101ABCBD72DAE1 /* Info.plist in Resources */,
+				2DEE21EFACD2F5A8D7B423E5 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +698,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		36112772D63187B7210E0262 /* 📦 Embed Pods Frameworks */ = {
+		01C387F8576A478EC0FC6BFB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "\uD83D\uDCE6 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		025E4CA12EA276A421B8BDE6 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -464,7 +728,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3B2D0AAA9FC8EA8A1AE70CE5 /* 📦 Embed Pods Frameworks */ = {
+		03599E6E07E15B8F7BD54F1D /* uD83DuDCE6 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		09EE5EFCA2A0D5A2BEDCED16 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -476,10 +755,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		589E6AB859B4732648D4DE6B /* 📦 Check Pods Manifest.lock */ = {
+		114794438DA4EF9C2E7FDD53 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -494,14 +773,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		5E6B5096E6BD5CAA83CBE86C /* 📦 Check Pods Manifest.lock */ = {
+		231582D19AF80FD6DD956135 /* uD83DuDCE6 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Check Pods Manifest.lock";
+			name = "uD83DuDCE6 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,14 +788,44 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		8933A04A25C38D175FFE1430 /* 📦 Copy Pods Resources */ = {
+		34CFDE13141853542F10A710 /* uD83DuDCE6 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Copy Pods Resources";
+			name = "uD83DuDCE6 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36112772D63187B7210E0262 /* uD83DuDCE6 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AFD24784EC3DD5ACE638D56 /* uD83DuDCE6 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,7 +833,172 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8A6C5DE9E525ABF13DBA4379 /* 📦 Copy Pods Resources */ = {
+		3B2D0AAA9FC8EA8A1AE70CE5 /* uD83DuDCE6 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C447FD2278E0A682A352368 /* uD83DuDCE6 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E9F20D868A602BF8D2E9D54 /* uD83DuDCE6 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FC926ECD9E18331D3667CC5 /* uD83DuDCE6 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56FDE49EC998DA75351229E5 /* uD83DuDCE6 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		589E6AB859B4732648D4DE6B /* uD83DuDCE6 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E6B5096E6BD5CAA83CBE86C /* uD83DuDCE6 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87E28976CDAD80DD46207D89 /* uD83DuDCE6 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8933A04A25C38D175FFE1430 /* uD83DuDCE6 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A6C5DE9E525ABF13DBA4379 /* uD83DuDCE6 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0B89A6F9918DF7CF473FFD1 /* uD83DuDCE6 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1B83EAFA74C5D507F85F9CC /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -536,7 +1010,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9C3BE4848F505E9BED8731E /* uD83DuDCE6 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFD3490B9BD4005BAA87A966 /* uD83DuDCE6 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4B0AECD468D44704778E791 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "\uD83D\uDCE6 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -566,15 +1085,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DEE20CC57D57D4D265C242C /* main.m in Sources */,
-				2DEE237EFE3EABDB2C845EFE /* AppDelegate.m in Sources */,
-				2DEE29DF5644DB68C69C6B70 /* ViewController.m in Sources */,
 				2DEE2ECFEB3319C8CB31EEF3 /* PBTPhotosService.m in Sources */,
 				2DEE270F46C23F50E27CECA9 /* PBTPhotosNetworkClient.m in Sources */,
-				2DEE2F5D5C79A7E443B46859 /* PBTRoutesBuilder.m in Sources */,
 				2DEE2DB2FC9416CD42E0F75B /* PBTPhoto.m in Sources */,
 				2DEE22FB267BD01AE905A822 /* PBTPhotosMapper.m in Sources */,
 				2DEE20B68EFE78033F9050C6 /* PBTPhotosQueryResponseMapper.m in Sources */,
 				2DEE233C9A848BCF53D7B834 /* PBTPhotosQueryResponse.m in Sources */,
+				2DEE2A849CE509D97F8BFC6B /* AppDelegate.m in Sources */,
+				2DEE2C55D90C7922BF77B6D3 /* PBTAppDelegateAssembly.m in Sources */,
+				2DEE27CF74F1337E1AA2CDBF /* PBTPhotosServiceAssembly.m in Sources */,
+				2DEE2F1595093917AD29EBF9 /* PBTPhotoListInteractor.m in Sources */,
+				2DEE21C8F59040D5E65E33D7 /* PBTPhotoListPresenter.m in Sources */,
+				2DEE206D5B79725E8A79800F /* PBTPhotoListRouter.m in Sources */,
+				2DEE2045FC50D266C3C1C1C6 /* PBTPhotoListViewController.m in Sources */,
+				2DEE27DE775959DBB9EC0F09 /* PBTPhotoListAssembly.m in Sources */,
+				2DEE208FE7D3BF89899F69A4 /* PBTPhotoTableViewCell.m in Sources */,
+				2DEE2A9D6D85D8C22BF48567 /* PBTNetworkConstants.m in Sources */,
+				2DEE2C684522E4694DC580BF /* PBTPhotoDetailViewController.m in Sources */,
+				2DEE22C75F841B6CE55482F1 /* PBTPhotoDetailRouter.m in Sources */,
+				2DEE2735A083743E32EE0A15 /* PBTPhotoDetailPresenter.m in Sources */,
+				2DEE2E9097FB789BEAA8CDA3 /* PBTPhotoDetailInteractor.m in Sources */,
+				2DEE2E1C596E99A1998B1C74 /* PBTPhotoFetchService.m in Sources */,
+				2DEE2E545670104BF5112308 /* PBTPhotoFetchNetworkClient.m in Sources */,
+				2DEE2C6191E536ECCE399AE1 /* PBTPhotoFetchServiceAssembly.m in Sources */,
+				2DEE2E87C017B76510308DB2 /* PBTPhotoDetailModuleAssembly.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,20 +1128,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2DEE22642EE874AC897CE3B8 /* LaunchScreen.storyboard */ = {
+		2DEE21794426B2949728EC8D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2DEE298EAC35BFE7ADFB3562 /* Base */,
+				2DEE21D1E23961624CA10B50 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		2DEE2FD7E6641489AAA24D91 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DEE209BD13C5336F26DC7D2 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -666,10 +1192,10 @@
 		};
 		2DEE230488E57C43FB124311 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3C88FB054F9E27112E5A071 /* Pods-PixabayTest.debug.xcconfig */;
+			baseConfigurationReference = 955629CA685965F6609682D1 /* Pods-PixabayTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = PixabayTest/Info.plist;
+				INFOPLIST_FILE = PixabayTest/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "azat-zul.PixabayTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -690,7 +1216,7 @@
 		};
 		2DEE27B72EA0F5544455ABD0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 899D294BA5B738D9C317B574 /* Pods-PixabayTest-PixabayTestTests.release.xcconfig */;
+			baseConfigurationReference = 3B6566E753AFE79048D91FD9 /* Pods-PixabayTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PixabayTest.app/PixabayTest";
 				INFOPLIST_FILE = PixabayTestTests/Info.plist;
@@ -748,10 +1274,10 @@
 		};
 		2DEE2A4667001F08A114E93D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C12A9D520EE5D49FEC2599 /* Pods-PixabayTest.release.xcconfig */;
+			baseConfigurationReference = 17B1052A0AD06F8018C2FD1F /* Pods-PixabayTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = PixabayTest/Info.plist;
+				INFOPLIST_FILE = PixabayTest/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "azat-zul.PixabayTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -760,7 +1286,7 @@
 		};
 		2DEE2CBE5CCDFB1441D4F78F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC28C8505A084299F42A51CB /* Pods-PixabayTest-PixabayTestTests.debug.xcconfig */;
+			baseConfigurationReference = C5BC9311E727CCF0B18BA45B /* Pods-PixabayTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PixabayTest.app/PixabayTest";
 				INFOPLIST_FILE = PixabayTestTests/Info.plist;

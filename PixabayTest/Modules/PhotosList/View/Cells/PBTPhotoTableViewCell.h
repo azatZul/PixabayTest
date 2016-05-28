@@ -1,0 +1,1 @@
+//// PBTPhotoTableViewCell// PixabayTest////  Created by azat on 27/05/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>#import <UIKit/UIKit.h>@class PBTPhoto;@interface PBTPhotoTableViewCell : UITableViewCell+ (NSString *)cellIdentifier;- (void)configureWithPhoto:(PBTPhoto *)photo;@end

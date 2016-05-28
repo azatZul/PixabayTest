@@ -1,0 +1,1 @@
+//// PBTPhotoDetailRouterInput// PixabayTest////  Created by azat on 28/05/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>#import <UIKit/UIKit.h>@protocol PBTPhotoDetailRouterInput <NSObject>- (void)navigateToPhotoDetailFrom:(UINavigationController *)controller;@end

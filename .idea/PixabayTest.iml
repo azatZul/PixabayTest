@@ -8,213 +8,167 @@
       <sourceFolder url="file://$MODULE_DIR$/PixabayTestTests/Mapping/PBTPhotoMappingTests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PixabayTestTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PixabayTestTests/PBTTestHelperFunctions.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTestUITests/PixabayTestUITests.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTestUITests/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/ViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/AppDelegate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/Common/PBTRoutesBuilder.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/Common/PBTRequest.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/Common/PBTRoutesBuilder.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapper.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapper.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Models/PBTPhoto.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Models/PBTPhoto.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/main.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Assets.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/ViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/AppDelegate.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Base.lproj/Main.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPBlockDefinedMatcher.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPExpect.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPUnsupportedObject.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPExpect.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPDefines.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPUnsupportedObject.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatcherHelpers.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+postNotification.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInstanceOf.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beNil.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beFalsy.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+haveCountOf.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatcherHelpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInstanceOf.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beCloseTo.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInTheRangeOf.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beKindOf.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatcherHelpers.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beNil.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beFalsy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beNil.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInTheRangeOf.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSupersetOf.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+equal.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beNil.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+postNotification.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThan.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beKindOf.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beginWith.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+postNotification.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSubclassOf.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThan.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beCloseTo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beKindOf.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+respondTo.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+raise.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+match.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+match.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+haveCountOf.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+haveCountOf.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSubclassOf.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+equal.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+raiseWithReason.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+respondTo.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+contain.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSubclassOf.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSupersetOf.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+raiseWithReason.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThan.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+haveCountOf.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+contain.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+equal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beIdenticalTo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThan.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+raise.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beCloseTo.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+endWith.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beTruthy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beginWith.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beIdenticalTo.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+endWith.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beTruthy.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beIdenticalTo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThan.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+conformTo.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThan.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beginWith.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beTruthy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+conformTo.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+postNotification.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInstanceOf.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beFalsy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+equal.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Expecta.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPBlockDefinedMatcher.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/ExpectaObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/ExpectaObject.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/NSValue+Expecta.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPMatcher.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/ExpectaObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPBlockDefinedMatcher.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/NSValue+Expecta.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPFloatTuple.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/ExpectaSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/ExpectaObject.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/ExpectaSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/NSObject+Expecta.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPDoubleTuple.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPFloatTuple.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPBlockDefinedMatcher.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPDoubleTuple.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPFloatTuple.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/TyphoonComponentFactory.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Hooks/NSObject+FactoryHooks.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyAdviser.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonComponentFactory+InstanceBuilder.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/NSInvocation+TCFUnwrapValues.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonComponentFactory+InstanceBuilder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/NSValue+TCFUnwrapValues.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyAdviser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/NSInvocation+TCFWrapValues.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyBuilder+PlistProcessor.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/NSInvocation+TCFWrapValues.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblySelectorAdviser.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyBuilder+PlistProcessor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/NSMethodSignature+TCFUnwrapValues.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonBlockComponentFactory.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonRuntimeArguments.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblySelectorAdviser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCallStack.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonBlockComponentFactory.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonRuntimeArguments.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyBuilder.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/NSValue+TCFUnwrapValues.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyBuilder+PlistProcessor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonComponentFactory+InstanceBuilder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonMemoryManagementUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/NSInvocation+TCFUnwrapValues.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyPropertyInjectionPostProcessor.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyAdviser.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonComponentFactory+TyphoonDefinitionRegisterer.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonParentReferenceHydratingPostProcessor.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/NSInvocation+TCFUnwrapValues.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyPropertyInjectionPostProcessor.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCollaboratingAssemblyPropertyEnumerator.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonParentReferenceHydratingPostProcessor.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCircularDependencyTerminator.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyBuilder.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyDefinitionBuilder.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCollaboratingAssembliesCollector.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCircularDependencyTerminator.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/NSInvocation+TCFUnwrapValues.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonMemoryManagementUtils.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyDefinitionBuilder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCollaboratingAssembliesCollector.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/NSValue+TCFUnwrapValues.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonMemoryManagementUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonStackElement.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCollaboratingAssembliesCollector.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/NSInvocation+TCFInstanceBuilder.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonStackElement.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCollaboratingAssemblyProxy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonStackElement.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/NSMethodSignature+TCFUnwrapValues.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/NSInvocation+TCFInstanceBuilder.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCollaboratingAssemblyProxy.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/NSInvocation+TCFWrapValues.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/NSMethodSignature+TCFUnwrapValues.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCallStack.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCollaboratingAssemblyPropertyEnumerator.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonAssemblyDefinitionBuilder.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCollaboratingAssemblyPropertyEnumerator.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonCallStack.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonFactoryPropertyInjectionPostProcessor.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Internal/TyphoonFactoryPropertyInjectionPostProcessor.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/TyphoonComponentFactory.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/TyphoonPreattachedComponentsRegisterer.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/TyphoonDefinitionRegisterer.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Assembly/TyphoonAssemblyActivator.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Assembly/TyphoonAssembly+TyphoonAssemblyFriend.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Assembly/TyphoonAssemblyActivator.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Assembly/TyphoonAssemblyActivator.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Assembly/TyphoonAssembly.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Assembly/TyphoonAssembly.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/TyphoonDefinitionRegisterer.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/TyphoonPreattachedComponentsRegisterer.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Pool/TyphoonWeakComponentsPool.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Pool/TyphoonComponentsPool.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/Pool/TyphoonWeakComponentsPool.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/TyphoonPreattachedComponentsRegisterer.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Factory/TyphoonDefinitionRegisterer.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeConversionUtils.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeDescriptor.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Helpers/TyphoonColorConversionUtils.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Helpers/TyphoonColorConversionUtils.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonNSURLTypeConverter.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonNSURLTypeConverter.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonNSNumberTypeConverter.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/NSNullTypeConverter.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonPrimitiveTypeConverter.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonPassThroughTypeConverter.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonNSNumberTypeConverter.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonPrimitiveTypeConverter.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonPassThroughTypeConverter.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/NSNullTypeConverter.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeDescriptor.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeConverter.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeConverterRegistry.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeConversionUtils.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeConverterRegistry.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Typhoon.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonStoryboardResolver.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonLoadedView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonStoryboardProvider.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonStoryboard.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonStoryboardResolver.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonLoadedView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonStoryboardProvider.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonStoryboard.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonViewHelpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonLoadedView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonStoryboardProvider.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonStoryboardResolver.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonLoadedView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonStoryboardProvider.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonStoryboardResolver.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/Storyboard/TyphoonViewHelpers.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/TyphooniOS.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/TypeConversion/Converters/TyphoonBundledImageTypeConverter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/TypeConversion/Converters/TyphoonBundledImageTypeConverter.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/TypeConversion/Converters/TyphoonUIColorTypeConverter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/TypeConversion/Converters/TyphoonBundledImageTypeConverter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/TypeConversion/Converters/TyphoonUIColorTypeConverter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/Configuration/Resolver/TyphoonViewControllerNibResolver.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/ios/Configuration/Resolver/TyphoonViewControllerNibResolver.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Typhoon+Infrastructure.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Utils/NSArray+TyphoonManualEnumeration.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Utils/NSObject+TyphoonIntrospectionUtils.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Utils/NSObject+PropertyInjection.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Utils/TyphoonSelector.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Utils/NSObject+TyphoonIntrospectionUtils.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Utils/NSObject+PropertyInjection.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Utils/NSObject+DeallocNotification.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Utils/TyphoonSelector.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Utils/NSObject+TyphoonIntrospectionUtils.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Utils/NSObject+DeallocNotification.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Utils/TyphoonLinkerCategoryBugFix.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Utils/TyphoonIntrospectionUtils.m" isTestSource="false" />
@@ -224,50 +178,69 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Utils/Swizzle/TyphoonMethodSwizzler.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Utils/Swizzle/TyphoonSwizzlerDefaultImpl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Utils/Swizzle/TyphoonSwizzlerDefaultImpl.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Typhoon+Infrastructure.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Vendor/OCLogTemplate/OCLogTemplate.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Test/Patcher/TyphoonPatcher.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Test/Patcher/TyphoonPatcher.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Test/TestUtils/TyphoonTestUtils.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Test/TestUtils/TyphoonTestUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Vendor/OCLogTemplate/OCLogTemplate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeConversionUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeConversionUtils.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Helpers/TyphoonColorConversionUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Helpers/TyphoonColorConversionUtils.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeConverterRegistry.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeDescriptor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonNSURLTypeConverter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonNSURLTypeConverter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonNSNumberTypeConverter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/NSNullTypeConverter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonPrimitiveTypeConverter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonPassThroughTypeConverter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonNSNumberTypeConverter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/NSNullTypeConverter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonPrimitiveTypeConverter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/Converters/TyphoonPassThroughTypeConverter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeDescriptor.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeConverter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/TypeConversion/TyphoonTypeConverterRegistry.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Typhoon.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/TyphoonAbstractDetachableComponentFactoryPostProcessor.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/Startup/TyphoonStartup.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/Startup/TyphoonStartup.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/GlobalConfigResolver/TyphoonGlobalConfigCollector.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/GlobalConfigResolver/TyphoonGlobalConfigCollector.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/Resource/TyphoonBundleResource.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/Resource/TyphoonPathResource.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/Resource/TyphoonResource.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/Resource/TyphoonPathResource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/Resource/TyphoonBundleResource.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/Resource/TyphoonResource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/Resource/TyphoonPathResource.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/Resource/TyphoonBundleResource.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/TyphoonAbstractDetachableComponentFactoryPostProcessor.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/TyphoonInstancePostProcessor.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/DefinitionOptionConfiguration/TyphoonDefinition+Option.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/DefinitionOptionConfiguration/Matcher/TyphoonOptionMatcher.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/DefinitionOptionConfiguration/Matcher/TyphoonOptionMatcher+Internal.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/DefinitionOptionConfiguration/Matcher/TyphoonOptionMatcher.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/DefinitionOptionConfiguration/TyphoonDefinition+Option.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/TyphoonOrdered.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/TyphoonInstancePostProcessor.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfigPostProcessor.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/Internal/TyphoonConfigPostProcessor+Internal.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfigPostProcessor.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonDefinition+Config.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonDefinition+Config.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonPropertyStyleConfiguration.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonPlistStyleConfiguration.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonJsonStyleConfiguration.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonPlistStyleConfiguration.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonPropertyStyleConfiguration.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonPlistStyleConfiguration.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonJsonStyleConfiguration.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonPlistStyleConfiguration.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonPropertyStyleConfiguration.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonPropertyStyleConfiguration.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/ConfigPostProcessor/TyphoonConfiguration/TyphoonConfiguration.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/TyphoonOrdered.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Configuration/TyphoonDefinitionPostProcessor.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Namespacing/TyphoonDefinitionNamespace.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Namespacing/TyphoonDefinitionNamespace.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/TyphoonDefinition.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Method/TyphoonMethod.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Method/Internal/TyphoonMethod+InstanceBuilder.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Method/Internal/TyphoonMethod+InstanceBuilder.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Method/TyphoonMethod.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonDefinition+InstanceBuilder.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonFactoryDefinition.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/NSDictionary+CustomInjection.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonBlockDefinitionController.m" isTestSource="false" />
@@ -275,18 +248,18 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/NSDictionary+CustomInjection.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonBlockDefinitionController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonDefinition+Internal.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonReferenceDefinition.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonBlockDefinition+InstanceBuilder.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/Collections+CustomInjection.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonBlockDefinition+InstanceBuilder.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonDefinition+InstanceBuilder.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/Collections+CustomInjection.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonInjectionDefinition.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonObjectWithCustomInjection.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonDefinition+InstanceBuilder.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonReferenceDefinition.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonInjectionDefinition.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonBlockDefinition+InstanceBuilder.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonBlockDefinition+Internal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonReferenceDefinition.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonInjectionDefinition.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Internal/TyphoonReferenceDefinition.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/TyphoonDefinition.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInject.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByReference.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByObjectFromString.m" isTestSource="false" />
@@ -294,6 +267,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByReference.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInject.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByConfig.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByRuntimeArgument.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByDictionary.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByCollection.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByCurrentRuntimeArguments.m" isTestSource="false" />
@@ -308,9 +282,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjections.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByCurrentRuntimeArguments.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByRuntimeArgument.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonParameterInjection.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjections.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByRuntimeArgument.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonParameterInjection.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByObjectFromString.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByType.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByFactoryReference.m" isTestSource="false" />
@@ -320,36 +293,36 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByComponentFactory.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonPropertyInjection.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Injections/TyphoonInjectionByComponentFactory.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/TyphoonDefinition.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/TyphoonBlockDefinition.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Infrastructure/TyphoonDefinition+Infrastructure.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/Infrastructure/TyphoonInjectionsEnumeration.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/AutoInjection/TyphoonInjectedObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/AutoInjection/TyphoonAutoInjection.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/AutoInjection/TyphoonFactoryAutoInjectionPostProcessor.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/AutoInjection/TyphoonInjectedObject.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/AutoInjection/TyphoonFactoryAutoInjectionPostProcessor.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/AutoInjection/TyphoonFactoryAutoInjectionPostProcessor.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/TyphoonBlockDefinition.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/AutoInjection/TyphoonAutoInjection.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/TyphoonBlockDefinition.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Typhoon/Source/Definition/TyphoonDefinition.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/NSInvocation+EXT.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/NSMethodSignature+EXT.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTRuntimeExtensions.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/metamacros.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTADT.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTKeyPathCoding.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTADT.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/extobjc.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTConcreteProtocol.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/NSMethodSignature+EXT.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTSynthesize.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTConcreteProtocol.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTConcreteProtocol.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/extobjc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTSynthesize.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTADT.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/NSMethodSignature+EXT.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTScope.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTSafeCategory.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/NSInvocation+EXT.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTSelectorChecking.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTScope.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTSafeCategory.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTSelectorChecking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/NSInvocation+EXT.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTNil.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTSelectorChecking.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/NSInvocation+EXT.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTNil.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/libextobjc/extobjc/EXTRuntimeExtensions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTExcludeGlobalBeforeAfterEach.h" isTestSource="false" />
@@ -358,121 +331,176 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SpectaUtility.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTCompiledExample.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTSharedExampleGroups.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTSharedExampleGroups.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTExample.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTExample.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTTestSuite.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SpectaUtility.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SpectaDSL.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SpectaTypes.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTTestSuite.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/Specta.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/XCTest+Private.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SpectaDSL.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SpectaTypes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTSpec.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTSharedExampleGroups.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTSpec.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/XCTestCase+Specta.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SpectaDSL.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SpectaUtility.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTCompiledExample.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTExample.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTSpec.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/XCTestCase+Specta.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTExampleGroup.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTCallSite.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTExampleGroup.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/FrameAccessor/FrameAccessor/ScrollViewFrameAccessor.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/XCTestCase+Specta.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SpectaDSL.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTCallSite.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTExample.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/FrameAccessor/FrameAccessor/ViewFrameAccessor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/FrameAccessor/FrameAccessor/ScrollViewFrameAccessor.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/FrameAccessor/FrameAccessor/FrameAccessor.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/FrameAccessor/FrameAccessor/ViewFrameAccessor.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/FrameAccessor/FrameAccessor/ScrollViewFrameAccessor.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Typhoon/Typhoon-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Typhoon/Typhoon-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Typhoon/Typhoon.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/libextobjc/libextobjc-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/libextobjc/libextobjc.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/libextobjc/libextobjc-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods.release.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Specta/Specta.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Specta/Specta-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Specta/Specta-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest.debug.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest.release.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-resources.sh" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-acknowledgements.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-acknowledgements.markdown" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-frameworks.sh" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCMock/OCMock-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCMock/OCMock.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCMock/OCMock-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Expecta/Expecta.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Expecta/Expecta-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Expecta/Expecta-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/libextobjc/libextobjc-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/libextobjc/libextobjc-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/libextobjc/libextobjc.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCMock/OCMock-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCMock/OCMock.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCMock/OCMock-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-acknowledgements.markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-acknowledgements.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-frameworks.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Specta/Specta.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Specta/Specta-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Specta/Specta-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/FrameAccessor/FrameAccessor-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/FrameAccessor/FrameAccessor.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/FrameAccessor/FrameAccessor-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SDWebImage/SDWebImage-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SDWebImage/SDWebImage-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SDWebImage/SDWebImage.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-acknowledgements.markdown" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-frameworks.sh" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-acknowledgements.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests.release.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-resources.sh" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Typhoon/Typhoon-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Typhoon/Typhoon-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Typhoon/Typhoon.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Masonry/Masonry-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Masonry/Masonry.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Masonry/Masonry-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests-frameworks.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests-acknowledgements.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests-acknowledgements.markdown" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFNetworking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImage+GIF.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImage+GIF.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIButton+WebCache.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDImageCache.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDImageCache.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageCompat.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/MASConstraint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/ViewController+MASAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/MASConstraint+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/MASConstraintMaker.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/MASConstraintMaker.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/MASViewConstraint.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/View+MASAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/MASLayoutConstraint.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/NSArray+MASAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/MASCompositeConstraint.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/View+MASAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/MASLayoutConstraint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/MASCompositeConstraint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/MASViewAttribute.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/MASViewConstraint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/View+MASShorthandAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/MASViewAttribute.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/MASUtilities.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/Masonry.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/MASConstraint.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/ViewController+MASAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/NSArray+MASAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Masonry/Masonry/NSArray+MASShorthandAdditions.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBoxedReturnValueProvider.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMReturnValueProvider.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMFunctionsPrivate.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBoxedReturnValueProvider.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMStubRecorder.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSObject+OCMAdditions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSObject+OCMAdditions.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSValue+OCMAdditions.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCProtocolMockObject.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSValue+OCMAdditions.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMFunctions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMFunctions.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCProtocolMockObject.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSMethodSignature+OCMAdditions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSMethodSignature+OCMAdditions.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCProtocolMockObject.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMRecorder.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMRecorder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMInvocationExpectation.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMVerifier.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMRealObjectForwarder.m" isTestSource="false" />
@@ -482,19 +510,20 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMExceptionReturnValueProvider.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMLocation.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCObserverMockObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMInvocationMatcher.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBlockCaller.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCObserverMockObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBlockArgCaller.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMStubRecorder.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMArg.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMStubRecorder.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMockObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBlockArgCaller.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMStubRecorder.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMArg.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMPassByRefSetter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMInvocationMatcher.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMPassByRefSetter.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMInvocationMatcher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBlockArgCaller.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMIndirectReturnValueProvider.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMObserverRecorder.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMMacroState.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMIndirectReturnValueProvider.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMock.h" isTestSource="false" />
@@ -516,24 +545,86 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMExceptionReturnValueProvider.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMObserverRecorder.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMInvocationStub.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMObserverRecorder.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMArgAction.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMInvocationStub.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMArgAction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBlockArgCaller.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCClassMockObject.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCClassMockObject.h" isTestSource="false" />
-    </content>
-    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/PixabayTest-glkawnzjolmpvfakkttfusfkvyri/Build/Products/Debug-iphonesimulator/libPods-PixabayTest-PixabayTestTests.a">
-      <sourceFolder url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/PixabayTest-glkawnzjolmpvfakkttfusfkvyri/Build/Products/Debug-iphonesimulator/libPods-PixabayTest-PixabayTestTests.a" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotoDetail/Presenter/PBTPhotoDetailPresenter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotoDetail/Presenter/PBTPhotoDetailPresenter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotoDetail/Presenter/PBTPhotoDetailModuleInput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotoDetail/Assembly/PBTPhotoDetailModuleAssembly.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotoDetail/Assembly/PBTPhotoDetailModuleFactory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotoDetail/Assembly/PBTPhotoDetailModuleAssembly.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotoDetail/Router/PBTPhotoDetailRouter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotoDetail/Router/PBTPhotoDetailRouter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotoDetail/Router/PBTPhotoDetailRouterInput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotoDetail/View/PBTPhotoDetailViewInput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotoDetail/View/PBTPhotoDetailViewOutput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotoDetail/View/PBTPhotoDetailViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotoDetail/View/PBTPhotoDetailViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotoDetail/Interactor/PBTPhotoDetailInteractorInput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotoDetail/Interactor/PBTPhotoDetailInteractor.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotoDetail/Interactor/PBTPhotoDetailInteractorOutput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotoDetail/Interactor/PBTPhotoDetailInteractor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotosList/Presenter/PBTPhotoListPresenter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotosList/Presenter/PBTPhotoListPresenter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotosList/Assembly/PBTPhotoListAssembly.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotosList/Assembly/PBTPhotoListAssembly.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotosList/Router/PBTPhotoListRouterInput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotosList/Router/PBTPhotoListRouter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotosList/Router/PBTPhotoListRouter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotosList/View/Cells/PBTPhotoTableViewCell.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotosList/View/Cells/PBTPhotoTableViewCell.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewOutput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewInput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotosList/Interactor/PBTPhotoListInteractor.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotosList/Interactor/PBTPhotoListInteractor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotosList/Interactor/PBTPhotoListInteractorInput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Modules/PhotosList/Interactor/PBTPhotoListInteractorOutput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Resources/Assets.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Resources/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Models/PBTPhoto.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Models/PBTPhoto.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotoListService/PBTPhotosService.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotoListService/Network/PBTPhotosNetworkClient.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotoListService/Network/PBTPhotosNetworkClient.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotoListService/PBTPhotosService.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotoListService/Assembly/PBTPhotosServiceAssembly.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotoListService/Assembly/PBTPhotosServiceAssembly.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotoListService/Mapping/PBTPhotosMapper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotoListService/Mapping/PBTPhotosQueryResponseMapper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotoListService/Mapping/PBTPhotosMapper.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotoListService/Mapping/PBTPhotosQueryResponseMapper.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotoListService/Models/PBTPhotosQueryResponse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotoListService/Models/PBTPhotosQueryResponse.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/Common/PBTNetworkConstants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/Common/PBTRequest.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/Common/PBTNetworkConstants.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotoFetchSerivce/Network/PBTPhotoFetchNetworkClient.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotoFetchSerivce/Network/PBTPhotoFetchNetworkClient.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotoFetchSerivce/PBTPhotoFetchService.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotoFetchSerivce/PBTPhotoFetchService.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotoFetchSerivce/Assembly/PBTPhotoFetchServiceAssembly.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Services/PhotoFetchSerivce/Assembly/PBTPhotoFetchServiceAssembly.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/main.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/AppDelegate/PBTAppDelegateAssembly.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/AppDelegate/AppDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/AppDelegate/AppDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/AppDelegate/PBTAppDelegateAssembly.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTest/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTestUITests/PixabayTestUITests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PixabayTestUITests/Info.plist" isTestSource="false" />
     </content>
     <content url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/PixabayTest-glkawnzjolmpvfakkttfusfkvyri/Build/Products/Debug-iphonesimulator/libPods-PixabayTest.a">
       <sourceFolder url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/PixabayTest-glkawnzjolmpvfakkttfusfkvyri/Build/Products/Debug-iphonesimulator/libPods-PixabayTest.a" isTestSource="false" />
     </content>
     <content url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/PixabayTest-glkawnzjolmpvfakkttfusfkvyri/Build/Products/Debug-iphonesimulator/libPods-PixabayTestTests.a">
       <sourceFolder url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/PixabayTest-glkawnzjolmpvfakkttfusfkvyri/Build/Products/Debug-iphonesimulator/libPods-PixabayTestTests.a" isTestSource="false" />
-    </content>
-    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/PixabayTest-glkawnzjolmpvfakkttfusfkvyri/Build/Products/Debug-iphonesimulator/libPods.a">
-      <sourceFolder url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/PixabayTest-glkawnzjolmpvfakkttfusfkvyri/Build/Products/Debug-iphonesimulator/libPods.a" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

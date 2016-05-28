@@ -1,0 +1,1 @@
+//// PBTPhotoListInteractorInput// PixabayTest////  Created by azat on 27/05/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>@protocol PBTPhotoListInteractorInput <NSObject>- (void)fetchPageOfPhotosFrom:(NSInteger)from query:(NSString *)query;@end

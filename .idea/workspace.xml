@@ -2,54 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a4ab870-5c81-4951-9584-cccd36849ce9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Models/PBTPhoto.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Models/PBTPhoto.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/Common/PBTRequest.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/Common/PBTRoutesBuilder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/Common/PBTRoutesBuilder.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapper.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTestTests/Mapping/PBTPhotoMappingTests.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTestTests/Mapping/PBTQueryResponseMappingTests.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTestTests/PBTTestHelperFunctions.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTestTests/PBTTestHelperFunctions.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTestTests/TestFiles/correct_query_response.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PixabayTestTests/PixabayTestTests.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/Pods.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-Private.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/FrameAccessor/FrameAccessor-Private.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-dummy.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-resources.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.release.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Typhoon/Typhoon-Private.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/libextobjc/libextobjc-Private.xcconfig" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/AppDelegate/AppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/AppDelegate/PBTAppDelegateAssembly.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/AppDelegate/PBTAppDelegateAssembly.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Assembly/PBTPhotoDetailModuleAssembly.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Assembly/PBTPhotoDetailModuleAssembly.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Assembly/PBTPhotoDetailModuleFactory.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Interactor/PBTPhotoDetailInteractor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Interactor/PBTPhotoDetailInteractor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Interactor/PBTPhotoDetailInteractorInput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Interactor/PBTPhotoDetailInteractorOutput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Presenter/PBTPhotoDetailModuleInput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Presenter/PBTPhotoDetailPresenter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Presenter/PBTPhotoDetailPresenter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Router/PBTPhotoDetailRouter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Router/PBTPhotoDetailRouter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Router/PBTPhotoDetailRouterInput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/View/PBTPhotoDetailViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/View/PBTPhotoDetailViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/View/PBTPhotoDetailViewInput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/View/PBTPhotoDetailViewOutput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Assembly/PBTPhotoListAssembly.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Assembly/PBTPhotoListAssembly.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Interactor/PBTPhotoListInteractor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Interactor/PBTPhotoListInteractor.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Interactor/PBTPhotoListInteractorInput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Interactor/PBTPhotoListInteractorOutput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Presenter/PBTPhotoListPresenter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Presenter/PBTPhotoListPresenter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Router/PBTPhotoListRouter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Router/PBTPhotoListRouter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Router/PBTPhotoListRouterInput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/Cells/PBTPhotoTableViewCell.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/Cells/PBTPhotoTableViewCell.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewInput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewOutput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/Common/PBTNetworkConstants.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/Common/PBTNetworkConstants.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/Assembly/PBTPhotoFetchServiceAssembly.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/Assembly/PBTPhotoFetchServiceAssembly.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/Network/PBTPhotoFetchNetworkClient.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/Network/PBTPhotoFetchNetworkClient.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/PBTPhotoFetchService.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/PBTPhotoFetchService.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotoListService/Assembly/PBTPhotosServiceAssembly.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotoListService/Assembly/PBTPhotosServiceAssembly.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotoListService/Network/PBTPhotosNetworkClient.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotoListService/PBTPhotosService.m" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PixabayTest/AppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PixabayTest/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PixabayTest/Services/Common/PBTRoutesBuilder.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PixabayTest/Services/Common/PBTRoutesBuilder.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PixabayTest/ViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PixabayTest/ViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/Pods-PixabayTest-PixabayTestTests.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-acknowledgements.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-acknowledgements.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-frameworks.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-resources.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests.debug.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests.release.xcconfig" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PixabayTest/AppDelegate.h" afterPath="$PROJECT_DIR$/PixabayTest/AppDelegate/AppDelegate.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PixabayTest/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/PixabayTest/Resources/Assets.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PixabayTest/Info.plist" afterPath="$PROJECT_DIR$/PixabayTest/Resources/Info.plist" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.h" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotoListService/Mapping/PBTPhotosMapper.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.m" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotoListService/Mapping/PBTPhotosMapper.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapper.h" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotoListService/Mapping/PBTPhotosQueryResponseMapper.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapper.m" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotoListService/Mapping/PBTPhotosQueryResponseMapper.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.h" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotoListService/Models/PBTPhotosQueryResponse.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.m" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotoListService/Models/PBTPhotosQueryResponse.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.h" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotoListService/Network/PBTPhotosNetworkClient.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.h" afterPath="$PROJECT_DIR$/PixabayTest/Services/PhotoListService/PBTPhotosService.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PixabayTest.xcworkspace/xcuserdata/azat.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/PixabayTest.xcworkspace/xcuserdata/azat.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PixabayTest.iml" afterPath="$PROJECT_DIR$/.idea/PixabayTest.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PixabayTest.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/PixabayTest.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PixabayTest.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/PixabayTest.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PixabayTest.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/PixabayTest.xcscheme" afterPath="$PROJECT_DIR$/PixabayTest.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/PixabayTest.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PixabayTest/Base.lproj/LaunchScreen.storyboard" afterPath="$PROJECT_DIR$/PixabayTest/Base.lproj/LaunchScreen.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PixabayTest/Services/Common/PBTRequest.h" afterPath="$PROJECT_DIR$/PixabayTest/Services/Common/PBTRequest.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/AFNetworking.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/AFNetworking.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/FrameAccessor.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/FrameAccessor.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/Pods-PixabayTest.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/Pods-PixabayTest.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/Specta.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/Specta.xcscheme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/Typhoon.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/Typhoon.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/libextobjc.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/libextobjc.xcscheme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/azat.xcuserdatad/xcschemes/xcschememanagement.plist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Expecta/Expecta.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Expecta/Expecta.xcconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/FrameAccessor/FrameAccessor.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/FrameAccessor/FrameAccessor.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/OCMock/OCMock.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/OCMock/OCMock.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-acknowledgements.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-acknowledgements.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest.debug.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest.release.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Specta/Specta.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Specta/Specta.xcconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Typhoon/Typhoon.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Typhoon/Typhoon.xcconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/libextobjc/libextobjc.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/libextobjc/libextobjc.xcconfig" />
     </list>
@@ -66,17 +118,17 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulatoriPhone_4s_9.3_i386_1" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulatoriPhone_6_9.3_x86_64_1" />
   <component name="FavoritesManager">
     <favorites_list name="PixabayTest" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PBTPhotosNetworkClient.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.m">
+      <file leaf-file-name="PBTPhotoListInteractor.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Interactor/PBTPhotoListInteractor.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            <state relative-caret-position="42">
+              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
               <folding>
                 <element signature="e#128#162#0" expanded="true" />
               </folding>
@@ -84,98 +136,94 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PBTQueryResponseMappingTests.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PixabayTestTests/Mapping/PBTQueryResponseMappingTests.m">
+      <file leaf-file-name="PBTPhotoListPresenter.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Presenter/PBTPhotoListPresenter.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <element signature="e#135#163#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PBTPhotosNetworkClient.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="15">
+              <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PBTPhotosQueryResponseMapper.m" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapper.m">
+      <file leaf-file-name="PBTPhotoListInteractorOutput.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Interactor/PBTPhotoListInteractorOutput.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PBTPhotosQueryResponseMapper.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapper.h">
+      <file leaf-file-name="PBTPhotoFetchNetworkClient.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/Network/PBTPhotoFetchNetworkClient.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PBTPhotosQueryResponse.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.h">
+      <file leaf-file-name="PBTPhotoFetchNetworkClient.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/Network/PBTPhotoFetchNetworkClient.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="-105">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="correct_query_response.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PixabayTestTests/TestFiles/correct_query_response.json">
+      <file leaf-file-name="PBTPhotoListViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="15" />
+            <state relative-caret-position="-1269">
+              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+              <folding>
+                <element signature="e#133#173#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PBTPhotoListViewOutput.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewOutput.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PBTPhotosService.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.h">
+      <file leaf-file-name="PBTPhotoListViewInput.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewInput.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PBTPhotoFetchService.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/PBTPhotoFetchService.m">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PBTPhotosService.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.m">
+      <file leaf-file-name="PBTPhotoListInteractorInput.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Interactor/PBTPhotoListInteractorInput.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="e#122#150#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PBTPhotosQueryResponse.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#128#162#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -195,31 +243,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotoDetail Module/PBTPhotoDetailService.h" />
-        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotoDetail Module/PBTPhotoDetailService.m" />
-        <option value="$PROJECT_DIR$/PixabayTest/Services/CommonClasses/PBTRequest.h" />
-        <option value="$PROJECT_DIR$/PixabayTest/Services/Common/PBTRequest.h" />
-        <option value="$PROJECT_DIR$/PixabayTest/Services/Common/NSURLSession+Path.h" />
-        <option value="$PROJECT_DIR$/PixabayTest/Services/Common/NSURLSession+Path.m" />
-        <option value="$PROJECT_DIR$/PixabayTest/Services/Common/PBTRoutesBuilder.m" />
-        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.h" />
-        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Interactor/PBTPhotoListInteractorOutput.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewController.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/Cells/PBTPhotoTableViewCell.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewOutput.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/AppDelegate/AppDelegate.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/AppDelegate/PBTAppDelegateAssembly.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/AppDelegate/PBTAppDelegateAssembly.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Assembly/PBTPhotosServiceAssembly.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapper.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/AppDelegate/AppDelegate.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Interactor/PBTPhotoListInteractor.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/Common/PBTNetworkConstants.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/Common/PBTNetworkConstants.m" />
         <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.m" />
-        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapping.h" />
-        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.m" />
-        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.h" />
-        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.h" />
-        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapping.m" />
-        <option value="$PROJECT_DIR$/PixabayTest/Models/PBTPhoto.h" />
-        <option value="$PROJECT_DIR$/PixabayTest/Services/Common/PBTRoutesBuilder.h" />
-        <option value="$PROJECT_DIR$/Podfile" />
-        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.m" />
-        <option value="$PROJECT_DIR$/PixabayTestTests/TestFiles/correct_query_response.json" />
-        <option value="$PROJECT_DIR$/PixabayTestTests/PBTTestHelperFunctions.h" />
-        <option value="$PROJECT_DIR$/PixabayTestTests/PBTTestHelperFunctions.m" />
-        <option value="$PROJECT_DIR$/PixabayTestTests/Mapping/PBTPhotoMappingTests.m" />
-        <option value="$PROJECT_DIR$/PixabayTestTests/Mapping/PBTQueryResponseMappingTests.m" />
         <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotosService/Assembly/PBTPhotosServiceAssembly.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewInput.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/View/PBTPhotoDetailViewOutput.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Router/PBTPhotoDetailRouter.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Router/PBTPhotoDetailRouterInput.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Router/PBTPhotoDetailRouter.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/View/PBTPhotoDetailViewController.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Presenter/PBTPhotoDetailModuleInput.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Presenter/PBTPhotoDetailPresenter.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Interactor/PBTPhotoDetailInteractorInput.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/Network/PBTPhotoFetchNetworkClient.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/Common/PBTRequest.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/Network/PBTPhotoFetchNetworkClient.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/PBTPhotoFetchService.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/PBTPhotoFetchService.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/Assembly/PBTPhotoFetchServiceAssembly.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/Assembly/PBTPhotoFetchServiceAssembly.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Interactor/PBTPhotoDetailInteractorOutput.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Presenter/PBTPhotoDetailPresenter.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Interactor/PBTPhotoDetailInteractor.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Interactor/PBTPhotoDetailInteractor.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/View/PBTPhotoDetailViewInput.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Assembly/PBTPhotoDetailModuleAssembly.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Assembly/PBTPhotoDetailModuleFactory.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Assembly/PBTPhotoDetailModuleAssembly.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Router/PBTPhotoListRouter.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Router/PBTPhotoListRouter.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Assembly/PBTPhotoListAssembly.h" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Assembly/PBTPhotoListAssembly.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Resources/Info.plist" />
+        <option value="$PROJECT_DIR$/Podfile" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/View/PBTPhotoDetailViewController.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/Cells/PBTPhotoTableViewCell.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewController.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Presenter/PBTPhotoListPresenter.m" />
+        <option value="$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Interactor/PBTPhotoListInteractor.m" />
       </list>
     </option>
   </component>
@@ -228,11 +302,11 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="y" value="53" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="838" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -308,18 +382,8 @@
               <option name="myItemId" value="PixabayTest" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PixabayTest" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PixabayTestTests" />
+              <option name="myItemId" value="PixabayTestUITests" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -336,28 +400,6 @@
               <option name="myItemId" value="PixabayTestTests" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestFiles" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PixabayTest" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PixabayTestTests" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mapping" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -370,6 +412,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Supporting Files" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -401,8 +447,254 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Frameworks" />
+              <option name="myItemId" value="PixabayTest" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhotoFetchSerivce" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Services" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhotosList" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhotosList" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhotosList" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Presenter" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhotosList" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Interactor" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhotosList" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhotoDetail" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhotoDetail" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PixabayTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -415,14 +707,13 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/PixabayTest.xcworkspace" />
-    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="PixabayTestTests" />
-    <property name="FullScreen" value="true" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="PixabayTest" />
   </component>
-  <component name="RunManager" selected="XCTest/Kiwi.PixabayTestTests">
-    <configuration default="false" name="PixabayTest" type="AppleRunConfiguration" factoryName="Application" temporary="true" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PixabayTest" TARGET_NAME="PixabayTest" CONFIG_NAME="Debug" SCHEME_NAME="PixabayTest" RUN_TARGET_PROJECT_NAME="PixabayTest" RUN_TARGET_NAME="PixabayTest" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+  <component name="RunManager" selected="Application.PixabayTest">
+    <configuration default="false" name="PixabayTest" type="AppleRunConfiguration" factoryName="Application" temporary="true" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="Pods-PixabayTest" CONFIG_NAME="Debug" SCHEME_NAME="PixabayTest" RUN_TARGET_PROJECT_NAME="PixabayTest" RUN_TARGET_NAME="PixabayTest" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
-        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+        <REVEAL_SETTINGS autoInject="true" autoInstall="true" askToEnableAutoInstall="true" />
       </EXTENSION>
       <method />
     </configuration>
@@ -513,13 +804,6 @@
       </EXTENSION>
       <method />
     </configuration>
-    <configuration default="false" name="Pods-PixabayTest-PixabayTestTests" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="Pods-PixabayTest-PixabayTestTests" CONFIG_NAME="Debug" SCHEME_NAME="Pods-PixabayTest-PixabayTestTests" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
-      <envs />
-      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
-        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
-      </EXTENSION>
-      <method />
-    </configuration>
     <configuration default="false" name="Pods-PixabayTest" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="Pods-PixabayTest" CONFIG_NAME="Debug" SCHEME_NAME="Pods-PixabayTest" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
@@ -527,18 +811,41 @@
       </EXTENSION>
       <method />
     </configuration>
-    <list size="11">
+    <configuration default="false" name="SDWebImage" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="SDWebImage" CONFIG_NAME="Debug" SCHEME_NAME="SDWebImage" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-PixabayTestTests" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="Pods-PixabayTestTests" CONFIG_NAME="Debug" SCHEME_NAME="Pods-PixabayTestTests" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Masonry" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pods" TARGET_NAME="Masonry" CONFIG_NAME="Debug" SCHEME_NAME="Masonry" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="13">
       <item index="0" class="java.lang.String" itemvalue="XCTest/Kiwi.PixabayTestTests" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PixabayTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AFNetworking" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Expecta" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FrameAccessor" />
-      <item index="5" class="java.lang.String" itemvalue="Application.libextobjc" />
-      <item index="6" class="java.lang.String" itemvalue="Application.OCMock" />
-      <item index="7" class="java.lang.String" itemvalue="Application.Specta" />
-      <item index="8" class="java.lang.String" itemvalue="Application.Typhoon" />
-      <item index="9" class="java.lang.String" itemvalue="Application.Pods-PixabayTest-PixabayTestTests" />
-      <item index="10" class="java.lang.String" itemvalue="Application.Pods-PixabayTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AFNetworking" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Expecta" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FrameAccessor" />
+      <item index="4" class="java.lang.String" itemvalue="Application.libextobjc" />
+      <item index="5" class="java.lang.String" itemvalue="Application.OCMock" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Specta" />
+      <item index="7" class="java.lang.String" itemvalue="Application.Typhoon" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Pods-PixabayTest" />
+      <item index="9" class="java.lang.String" itemvalue="Application.SDWebImage" />
+      <item index="10" class="java.lang.String" itemvalue="Application.Pods-PixabayTestTests" />
+      <item index="11" class="java.lang.String" itemvalue="Application.Masonry" />
+      <item index="12" class="java.lang.String" itemvalue="Application.PixabayTest" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -548,6 +855,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -589,220 +899,382 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="53" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1440" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.47498682" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32545203" sideWeight="0.2501762" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39877924" sideWeight="0.5207668" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="1540" y="153" width="1720" height="880" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32684284" sideWeight="0.5306554" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655138" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3240612" sideWeight="0.48625794" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11448349" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20789288" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32684284" sideWeight="0.46934462" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39877924" sideWeight="0.47923324" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44506258" sideWeight="0.739253" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="479" y="354" width="481" height="175" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="CidrExceptionBreakpoint">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.h">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoListService/PBTPhotosService.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.m">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoListService/Mapping/PBTPhotosQueryResponseMapper.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="57">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.h">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoListService/Assembly/PBTPhotosServiceAssembly.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.m">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/main.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="117">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Router/PBTPhotoDetailRouter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Router/PBTPhotoDetailRouter.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Router/PBTPhotoDetailRouterInput.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoListService/PBTPhotosService.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/SDWebImage/SDWebImageManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="151" column="11" selection-start-line="151" selection-start-column="11" selection-end-line="151" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageManager.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="109" column="19" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/PBTPhotoFetchService.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/Assembly/PBTPhotoFetchServiceAssembly.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="96" selection-start-line="23" selection-start-column="96" selection-end-line="23" selection-end-column="96" />
           <folding>
-            <element signature="e#122#150#0" expanded="true" />
+            <element signature="e#134#174#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Models/PBTPhoto.m">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Presenter/PBTPhotoDetailModuleInput.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Interactor/PBTPhotoDetailInteractorOutput.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Models/PBTPhoto.h">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Interactor/PBTPhotoDetailInteractorInput.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/ViewController.m">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Interactor/PBTPhotoDetailInteractor.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#131#164#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoList Module/sfdf.m" />
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoList Module/sfdf.h" />
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoList Module/fsdf.m" />
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoList Module/fsdf.h" />
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoList Module/sdf.m" />
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoList Module/sdf.h" />
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoDetail Module/PBTPhotoDetailService.h" />
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoDetail Module/PBTPhotoDetailService.m" />
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/CommonClasses/PBTRequest.m" />
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/CommonClasses/PBTRequest.h" />
-    <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Interactor/PBTPhotoDetailInteractor.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+        <state relative-caret-position="195">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding>
+            <marker date="1464456286000" expanded="true" signature="139:287" placeholder="..." />
+            <marker date="1464456286000" expanded="true" signature="432:1104" placeholder="..." />
+            <marker date="1464456286000" expanded="true" signature="469:1101" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="205" column="21" selection-start-line="205" selection-start-column="21" selection-end-line="205" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/Common/NSURLSession+Path.h" />
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/Common/NSURLSession+Path.m" />
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/Common/PBTRoutesBuilder.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/Common/PBTRequest.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLCache.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLSession.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2745">
-          <caret line="183" column="17" selection-start-line="183" selection-start-column="17" selection-end-line="183" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Models/PBTPhoto.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLResponse.h">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Presenter/PBTPhotoDetailPresenter.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding>
+            <element signature="e#129#164#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Presenter/PBTPhotoDetailPresenter.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+        <state relative-caret-position="181">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#130#163#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/libextobjc/EXTScope.h">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Assembly/PBTPhotoDetailModuleFactory.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/libextobjc/extobjc.h">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Router/PBTPhotoListRouter.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding>
+            <element signature="e#125#155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.h">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/Assembly/PBTPhotoFetchServiceAssembly.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="210">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Models/PBTPhoto.h">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Assembly/PBTPhotoDetailModuleAssembly.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="84" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
+          <folding>
+            <element signature="e#135#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/PixabayTest-glkawnzjolmpvfakkttfusfkvyri/Build/Intermediates/PixabayTest.build/Debug-iphonesimulator/PixabayTest.build/Script-36112772D63187B7210E0262.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Resources/Info.plist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/Assembly/PBTPhotoDetailModuleAssembly.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="e#135#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Router/PBTPhotoListRouter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#125#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Assembly/PBTPhotoListAssembly.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <caret line="19" column="96" selection-start-line="19" selection-start-column="96" selection-end-line="19" selection-end-column="96" />
+          <folding>
+            <element signature="e#127#160#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/View/PBTPhotoDetailViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/View/PBTPhotoDetailViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+          <folding>
+            <element signature="e#134#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/Cells/PBTPhotoTableViewCell.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/View/PBTPhotoDetailViewInput.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotoDetail/View/PBTPhotoDetailViewOutput.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Assembly/PBTPhotoListAssembly.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="47" column="107" selection-start-line="47" selection-start-column="107" selection-end-line="47" selection-end-column="107" />
+          <folding>
+            <element signature="e#126#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Interactor/PBTPhotoListInteractor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PixabayTest/Services/Common/PBTRoutesBuilder.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Podfile">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTestTests/Mapping/PBTQueryResponseMappingTests.h">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/Common/PBTRoutesBuilder.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -810,7 +1282,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTestTests/PixabayTestTests.m">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/Common/PBTRequest.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -818,135 +1290,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTestTests/Info.plist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTestTests/PBTTestHelperFunctions.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTestTests/PBTTestHelperFunctions.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="e#128#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosMapper.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTestTests/Mapping/PBTPhotoMappingTests.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#127#153#0" expanded="true" />
-            <marker date="1464351900000" expanded="true" signature="429:1078" placeholder="^{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTestTests/TestFiles/correct_query_response.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTestTests/Mapping/PBTQueryResponseMappingTests.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#135#163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapper.h">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/Network/PBTPhotoFetchNetworkClient.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.h">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/Network/PBTPhotoFetchNetworkClient.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="-105">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.m">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Interactor/PBTPhotoListInteractor.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="e#128#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Presenter/PBTPhotoListPresenter.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Interactor/PBTPhotoListInteractorOutput.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/Interactor/PBTPhotoListInteractorInput.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1269">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
           <folding>
-            <element signature="e#122#150#0" expanded="true" />
+            <element signature="e#133#173#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/PBTPhotosService.h">
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewOutput.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Modules/PhotosList/View/PBTPhotoListViewInput.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotoFetchSerivce/PBTPhotoFetchService.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Network/PBTPhotosNetworkClient.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="e#128#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Models/PBTPhotosQueryResponse.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#128#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PixabayTest/Services/PhotosService/Mapping/PBTPhotosQueryResponseMapper.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding />
         </state>
       </provider>

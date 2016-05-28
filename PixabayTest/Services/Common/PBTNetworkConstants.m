@@ -1,0 +1,1 @@
+//// PBTNetworkConstants// PixabayTest////  Created by azat on 27/05/16.//  Copyright (c) 2016. All rights reserved.//#import "PBTNetworkConstants.h"NSString *const PBTBaseURL = @"https://pixabay.com/api/";NSString *const PBTAPIKey = @"2640817-e2c75643b23a4f776a25cf894";

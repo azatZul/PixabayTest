@@ -13,6 +13,34 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A8A0AC94C93D8D88C74612AA61E9ABBC"
+               BuildableName = "libPods-PixabayTest.a"
+               BlueprintName = "Pods-PixabayTest"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "70AF9164F0B1CB37132486B741E112DA"
+               BuildableName = "libPods-PixabayTestTests.a"
+               BlueprintName = "Pods-PixabayTestTests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "2DEE2909B3AAC627FCB3F1DE"
                BuildableName = "PixabayTest.app"
                BlueprintName = "PixabayTest"

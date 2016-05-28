@@ -1,0 +1,1 @@
+//// PBTPhotoFetchServiceAssembly// PixabayTest////  Created by azat on 28/05/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>#import "TyphoonAssembly.h"@class PBTPhotoFetchService;@interface PBTPhotoFetchServiceAssembly : TyphoonAssembly- (PBTPhotoFetchService *)photoFetchService;@end

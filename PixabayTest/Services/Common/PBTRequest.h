@@ -1,1 +1,1 @@
-//// PBTRequest// PixabayTest////  Created by azat on 26/05/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>@protocol PBTRequest <NSObject>- (void)cancel;- (void)resume;@end
+//// PBTRequest// PixabayTest////  Created by azat on 26/05/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>@protocol PBTRequest <NSObject>- (void)cancel;@optional- (void)resume;@end

@@ -51,7 +51,11 @@ PODS:
     - libextobjc/RuntimeExtensions
   - libextobjc/RuntimeExtensions (0.4.1)
   - libextobjc/UmbrellaHeader (0.4.1)
+  - Masonry (1.0.0)
   - OCMock (3.3)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
   - Specta (1.0.5)
   - Typhoon (3.4.7):
     - Typhoon/no-arc (= 3.4.7)
@@ -62,7 +66,9 @@ DEPENDENCIES:
   - Expecta
   - FrameAccessor
   - libextobjc
+  - Masonry
   - OCMock
+  - SDWebImage
   - Specta
   - Typhoon
 
@@ -71,10 +77,12 @@ SPEC CHECKSUMS:
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   FrameAccessor: 443a13e58e23a10ff22180da0897b28c3f6abf66
   libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
   OCMock: d68685bde31f69cb61d518dcb39269080c78b5ed
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
   Typhoon: 0953addabd5a10a930973fcc131c03badc88c4ba
 
-PODFILE CHECKSUM: e08550dd9dbdb925a28f68d397d60d2fb59d9169
+PODFILE CHECKSUM: 00b9c4d2dad1affd812e9363c4b877f84da5ada0
 
 COCOAPODS: 1.0.0
