@@ -1,4 +1,4 @@
 DerivedData/
-Pods/
 .idea/
-.idea
+Pods/
+Podfile.lock

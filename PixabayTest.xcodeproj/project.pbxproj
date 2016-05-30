@@ -43,6 +43,7 @@
 		2DEE2E9097FB789BEAA8CDA3 /* PBTPhotoDetailInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE26243661E7FDB31D1EE1 /* PBTPhotoDetailInteractor.m */; };
 		2DEE2ECFEB3319C8CB31EEF3 /* PBTPhotosService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2D932C27F5FF8EEDEEA2 /* PBTPhotosService.m */; };
 		2DEE2F1595093917AD29EBF9 /* PBTPhotoListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE29B82FAB5A369E54D816 /* PBTPhotoListInteractor.m */; };
+		939DCC24DB5D9DE16C7B00CE /* libPods-PixabayTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD40F684CAF8197E6D48D2F8 /* libPods-PixabayTestTests.a */; };
 		AA140BE21CFC4C8F00E502B8 /* libPods-PixabayTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA140BE11CFC4C8F00E502B8 /* libPods-PixabayTestTests.a */; };
 		E7FEED17B38FE745343467E5 /* libPods-PixabayTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9D4C01103F6A1880724714 /* libPods-PixabayTest.a */; };
 /* End PBXBuildFile section */
@@ -163,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA140BE21CFC4C8F00E502B8 /* libPods-PixabayTestTests.a in Frameworks */,
+				939DCC24DB5D9DE16C7B00CE /* libPods-PixabayTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +589,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DEE2684717522E088969B90 /* Build configuration list for PBXNativeTarget "PixabayTest" */;
 			buildPhases = (
+				E49653A2FC6911A86D27A7CB /* 📦 Check Pods Manifest.lock */,
 				F4B0AECD468D44704778E791 /* uD83DuDCE6 Check Pods Manifest.lock */,
 				E9C3BE4848F505E9BED8731E /* uD83DuDCE6 Check Pods Manifest.lock */,
 				231582D19AF80FD6DD956135 /* uD83DuDCE6 Check Pods Manifest.lock */,
@@ -602,6 +605,8 @@
 				3C447FD2278E0A682A352368 /* uD83DuDCE6 Copy Pods Resources */,
 				025E4CA12EA276A421B8BDE6 /* uD83DuDCE6 Embed Pods Frameworks */,
 				01C387F8576A478EC0FC6BFB /* uD83DuDCE6 Copy Pods Resources */,
+				228536F2D87C7A0D5D5790D1 /* 📦 Embed Pods Frameworks */,
+				83CFEDCABE73F735FDB154B8 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -616,6 +621,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DEE2CBB514C652E819C7B97 /* Build configuration list for PBXNativeTarget "PixabayTestTests" */;
 			buildPhases = (
+				D5E1D52114F97A13451E4AFC /* 📦 Check Pods Manifest.lock */,
 				114794438DA4EF9C2E7FDD53 /* uD83DuDCE6 Check Pods Manifest.lock */,
 				EFD3490B9BD4005BAA87A966 /* uD83DuDCE6 Check Pods Manifest.lock */,
 				03599E6E07E15B8F7BD54F1D /* uD83DuDCE6 Check Pods Manifest.lock */,
@@ -625,6 +631,8 @@
 				2DEE2C17B11801348F55C6CE /* Resources */,
 				09EE5EFCA2A0D5A2BEDCED16 /* uD83DuDCE6 Embed Pods Frameworks */,
 				C1B83EAFA74C5D507F85F9CC /* uD83DuDCE6 Copy Pods Resources */,
+				01DE30E9C15134BF9E620B67 /* 📦 Embed Pods Frameworks */,
+				17560975D175766B98D12FFA /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -709,6 +717,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		01DE30E9C15134BF9E620B67 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		025E4CA12EA276A421B8BDE6 /* uD83DuDCE6 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -767,6 +790,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		17560975D175766B98D12FFA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		228536F2D87C7A0D5D5790D1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		231582D19AF80FD6DD956135 /* uD83DuDCE6 Check Pods Manifest.lock */ = {
@@ -859,6 +912,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		83CFEDCABE73F735FDB154B8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		87E28976CDAD80DD46207D89 /* uD83DuDCE6 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -917,6 +985,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5E1D52114F97A13451E4AFC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E49653A2FC6911A86D27A7CB /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E9C3BE4848F505E9BED8731E /* uD83DuDCE6 Check Pods Manifest.lock */ = {
