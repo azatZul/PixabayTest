@@ -43,7 +43,7 @@
 		2DEE2E9097FB789BEAA8CDA3 /* PBTPhotoDetailInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE26243661E7FDB31D1EE1 /* PBTPhotoDetailInteractor.m */; };
 		2DEE2ECFEB3319C8CB31EEF3 /* PBTPhotosService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE2D932C27F5FF8EEDEEA2 /* PBTPhotosService.m */; };
 		2DEE2F1595093917AD29EBF9 /* PBTPhotoListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE29B82FAB5A369E54D816 /* PBTPhotoListInteractor.m */; };
-		590B33E3B8D026D1F468E792 /* libPods-PixabayTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD40F684CAF8197E6D48D2F8 /* libPods-PixabayTestTests.a */; };
+		AA140BE21CFC4C8F00E502B8 /* libPods-PixabayTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA140BE11CFC4C8F00E502B8 /* libPods-PixabayTestTests.a */; };
 		E7FEED17B38FE745343467E5 /* libPods-PixabayTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9D4C01103F6A1880724714 /* libPods-PixabayTest.a */; };
 /* End PBXBuildFile section */
 
@@ -145,6 +145,7 @@
 		3B6566E753AFE79048D91FD9 /* Pods-PixabayTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixabayTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		7F9D4C01103F6A1880724714 /* libPods-PixabayTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PixabayTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		955629CA685965F6609682D1 /* Pods-PixabayTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixabayTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest.debug.xcconfig"; sourceTree = "<group>"; };
+		AA140BE11CFC4C8F00E502B8 /* libPods-PixabayTestTests.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-PixabayTestTests.a"; path = "DerivedData/PixabayTest/Build/Products/Debug-iphonesimulator/libPods-PixabayTestTests.a"; sourceTree = "<group>"; };
 		C5BC9311E727CCF0B18BA45B /* Pods-PixabayTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixabayTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD40F684CAF8197E6D48D2F8 /* libPods-PixabayTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PixabayTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -161,7 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				590B33E3B8D026D1F468E792 /* libPods-PixabayTestTests.a in Frameworks */,
+				AA140BE21CFC4C8F00E502B8 /* libPods-PixabayTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +180,7 @@
 		273BF7DD17A96BBE30A30BA6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AA140BE11CFC4C8F00E502B8 /* libPods-PixabayTestTests.a */,
 				7F9D4C01103F6A1880724714 /* libPods-PixabayTest.a */,
 				CD40F684CAF8197E6D48D2F8 /* libPods-PixabayTestTests.a */,
 			);
@@ -585,7 +587,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DEE2684717522E088969B90 /* Build configuration list for PBXNativeTarget "PixabayTest" */;
 			buildPhases = (
-				F4B0AECD468D44704778E791 /* 📦 Check Pods Manifest.lock */,
+				F4B0AECD468D44704778E791 /* uD83DuDCE6 Check Pods Manifest.lock */,
 				E9C3BE4848F505E9BED8731E /* uD83DuDCE6 Check Pods Manifest.lock */,
 				231582D19AF80FD6DD956135 /* uD83DuDCE6 Check Pods Manifest.lock */,
 				5E6B5096E6BD5CAA83CBE86C /* uD83DuDCE6 Check Pods Manifest.lock */,
@@ -598,8 +600,8 @@
 				56FDE49EC998DA75351229E5 /* uD83DuDCE6 Copy Pods Resources */,
 				87E28976CDAD80DD46207D89 /* uD83DuDCE6 Embed Pods Frameworks */,
 				3C447FD2278E0A682A352368 /* uD83DuDCE6 Copy Pods Resources */,
-				025E4CA12EA276A421B8BDE6 /* 📦 Embed Pods Frameworks */,
-				01C387F8576A478EC0FC6BFB /* 📦 Copy Pods Resources */,
+				025E4CA12EA276A421B8BDE6 /* uD83DuDCE6 Embed Pods Frameworks */,
+				01C387F8576A478EC0FC6BFB /* uD83DuDCE6 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -614,21 +616,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DEE2CBB514C652E819C7B97 /* Build configuration list for PBXNativeTarget "PixabayTestTests" */;
 			buildPhases = (
-				114794438DA4EF9C2E7FDD53 /* 📦 Check Pods Manifest.lock */,
+				114794438DA4EF9C2E7FDD53 /* uD83DuDCE6 Check Pods Manifest.lock */,
 				EFD3490B9BD4005BAA87A966 /* uD83DuDCE6 Check Pods Manifest.lock */,
 				03599E6E07E15B8F7BD54F1D /* uD83DuDCE6 Check Pods Manifest.lock */,
 				589E6AB859B4732648D4DE6B /* uD83DuDCE6 Check Pods Manifest.lock */,
 				2DEE201FA2C1F8601611F647 /* Sources */,
 				2DEE2A5838ACCCFF1CF234C6 /* Frameworks */,
 				2DEE2C17B11801348F55C6CE /* Resources */,
-				8933A04A25C38D175FFE1430 /* uD83DuDCE6 Copy Pods Resources */,
-				3B2D0AAA9FC8EA8A1AE70CE5 /* uD83DuDCE6 Embed Pods Frameworks */,
-				3E9F20D868A602BF8D2E9D54 /* uD83DuDCE6 Embed Pods Frameworks */,
-				3AFD24784EC3DD5ACE638D56 /* uD83DuDCE6 Copy Pods Resources */,
-				34CFDE13141853542F10A710 /* uD83DuDCE6 Embed Pods Frameworks */,
-				4FC926ECD9E18331D3667CC5 /* uD83DuDCE6 Copy Pods Resources */,
-				09EE5EFCA2A0D5A2BEDCED16 /* 📦 Embed Pods Frameworks */,
-				C1B83EAFA74C5D507F85F9CC /* 📦 Copy Pods Resources */,
+				09EE5EFCA2A0D5A2BEDCED16 /* uD83DuDCE6 Embed Pods Frameworks */,
+				C1B83EAFA74C5D507F85F9CC /* uD83DuDCE6 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -698,14 +694,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		01C387F8576A478EC0FC6BFB /* 📦 Copy Pods Resources */ = {
+		01C387F8576A478EC0FC6BFB /* uD83DuDCE6 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Copy Pods Resources";
+			name = "uD83DuDCE6 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -713,14 +709,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		025E4CA12EA276A421B8BDE6 /* 📦 Embed Pods Frameworks */ = {
+		025E4CA12EA276A421B8BDE6 /* uD83DuDCE6 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Embed Pods Frameworks";
+			name = "uD83DuDCE6 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -743,14 +739,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		09EE5EFCA2A0D5A2BEDCED16 /* 📦 Embed Pods Frameworks */ = {
+		09EE5EFCA2A0D5A2BEDCED16 /* uD83DuDCE6 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Embed Pods Frameworks";
+			name = "uD83DuDCE6 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -758,14 +754,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		114794438DA4EF9C2E7FDD53 /* 📦 Check Pods Manifest.lock */ = {
+		114794438DA4EF9C2E7FDD53 /* uD83DuDCE6 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Check Pods Manifest.lock";
+			name = "uD83DuDCE6 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -788,21 +784,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		34CFDE13141853542F10A710 /* uD83DuDCE6 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "uD83DuDCE6 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		36112772D63187B7210E0262 /* uD83DuDCE6 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -818,36 +799,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3AFD24784EC3DD5ACE638D56 /* uD83DuDCE6 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "uD83DuDCE6 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3B2D0AAA9FC8EA8A1AE70CE5 /* uD83DuDCE6 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "uD83DuDCE6 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3C447FD2278E0A682A352368 /* uD83DuDCE6 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -861,36 +812,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3E9F20D868A602BF8D2E9D54 /* uD83DuDCE6 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "uD83DuDCE6 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4FC926ECD9E18331D3667CC5 /* uD83DuDCE6 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "uD83DuDCE6 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTestTests/Pods-PixabayTestTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		56FDE49EC998DA75351229E5 /* uD83DuDCE6 Copy Pods Resources */ = {
@@ -953,21 +874,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8933A04A25C38D175FFE1430 /* uD83DuDCE6 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "uD83DuDCE6 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest-PixabayTestTests/Pods-PixabayTest-PixabayTestTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8A6C5DE9E525ABF13DBA4379 /* uD83DuDCE6 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -998,14 +904,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixabayTest/Pods-PixabayTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C1B83EAFA74C5D507F85F9CC /* 📦 Copy Pods Resources */ = {
+		C1B83EAFA74C5D507F85F9CC /* uD83DuDCE6 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Copy Pods Resources";
+			name = "uD83DuDCE6 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1043,14 +949,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		F4B0AECD468D44704778E791 /* 📦 Check Pods Manifest.lock */ = {
+		F4B0AECD468D44704778E791 /* uD83DuDCE6 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Check Pods Manifest.lock";
+			name = "uD83DuDCE6 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1221,6 +1127,10 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PixabayTest.app/PixabayTest";
 				INFOPLIST_FILE = PixabayTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DerivedData/PixabayTest/Build/Products/Debug-iphonesimulator",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "azat-zul.PixabayTestTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -1291,6 +1201,10 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PixabayTest.app/PixabayTest";
 				INFOPLIST_FILE = PixabayTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DerivedData/PixabayTest/Build/Products/Debug-iphonesimulator",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "azat-zul.PixabayTestTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
