@@ -1,1 +1,1 @@
-//// PBTPhotoDetailRouter// PixabayTest////  Created by azat on 28/05/16.//  Copyright (c) 2016. All rights reserved.//#import "PBTPhotoDetailRouter.h"@implementation PBTPhotoDetailRouter- (void)navigateToPhotoDetailFrom:(UINavigationController *)controller{    [controller pushViewController:self.photoDetailController animated:YES];}@end
+//// PBTPhotoDetailRouter// PixabayTest////  Created by azat on 28/05/16.//  Copyright (c) 2016. All rights reserved.//#import "PBTPhotoDetailRouter.h"@implementation PBTPhotoDetailRouter@end

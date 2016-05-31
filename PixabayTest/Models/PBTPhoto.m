@@ -1,1 +1,1 @@
-//// PBTPhoto// PixabayTest////  Created by azat on 26/05/16.//  Copyright (c) 2016. All rights reserved.//#import "PBTPhoto.h"@interface PBTPhoto ()@end@implementation PBTPhoto@end
+//// PBTPhoto// PixabayTest////  Created by azat on 26/05/16.//  Copyright (c) 2016. All rights reserved.//#import "PBTPhoto.h"#import "PBTPhotoDetailViewInput.h"@interface PBTPhoto ()@end@implementation PBTPhoto@end
